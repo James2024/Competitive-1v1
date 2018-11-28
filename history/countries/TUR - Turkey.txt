@@ -1,0 +1,62 @@
+﻿capital = 49
+
+oob = "TUR_1936"
+
+set_research_slots = 0
+
+add_ideas = {
+	limited_conscription
+	neutrality_idea	
+}
+
+set_technology = {
+
+}
+
+
+
+
+set_politics = {
+
+	parties = {
+		democratic = { 
+			popularity = 0
+			banned = yes
+		}
+
+		fascism = {
+			popularity = 0
+			banned = yes
+		}
+		
+		communism = {
+			popularity = 0
+			banned = yes #default is no
+		}
+		
+		neutrality = { 
+			popularity = 100
+		}
+	}
+	
+	ruling_party = neutrality
+	last_election = "1935.2.8"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+set_convoys = 20
+set_national_unity = 0.55
+
+
+# Atatürk still alive in '36, however, Inönü was already Prime Minister (but not President)
+create_country_leader = {
+	name = "Ismet Inönü"
+	desc = "POLITICS_ISMET_INÖNÜ_DESC"
+	picture = "Portrait_Turkey_Ismet_Inonu.dds"
+	expire = "1965.1.1"
+	ideology = despotism
+	traits = {
+		#
+	}
+}

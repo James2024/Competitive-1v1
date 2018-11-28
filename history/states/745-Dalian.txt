@@ -1,0 +1,32 @@
+state={
+	id=745
+	name="STATE_745"
+	provinces={
+		1150 6851 
+	}
+	state_category = large_town
+	history=
+	{
+		owner = TUR
+		add_core_of = CHI
+		add_core_of = MAN
+		add_core_of = PRC
+		victory_points = {
+			1150 1 
+		}
+		buildings = {
+			infrastructure = 7
+			air_base = 1
+			1150 = {
+				naval_base = 5
+			}
+		}
+        1939.4.4 = {
+		owner = JAP
+        }
+
+	
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+}
