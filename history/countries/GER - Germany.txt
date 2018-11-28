@@ -23,6 +23,7 @@ set_technology = {
 	motorised_infantry = 1
 	gw_artillery = 1
 	interwar_antiair = 1
+	antiair1 = 1
 	antiair2 = 1
 	gwtank = 1
 	basic_light_tank = 1
@@ -141,4 +142,76 @@ create_country_leader = {
 	traits = {
 		dictator
 	}
+}
+
+create_field_marshal = {
+	name = "Günther von Kluge"
+	picture = "Portrait_Germany_Gunther_von_Kluge.dds"
+	traits = { infantry_officer infantry_leader organizer logistics_wizard }
+	skill = 3
+	id = 2
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Wilhelm Ritter von Leeb"
+	picture = "Portrait_Germany_Wilhelm_Ritter_von_Leeb.dds"
+	traits = { infantry_officer infantry_leader }
+	skill = 3
+	id = 13
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Kurt Student"
+	picture = "Portrait_Germany_Kurt_Student.dds"
+	traits = { infantry_officer infantry_leader }
+	skill = 3
+	id = 16
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Kurt Student"
+	picture = "Portrait_Germany_Kurt_Student.dds"
+	traits = { infantry_officer infantry_leader }
+	skill = 3
+	id = 16
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Erwin Rommel"
+	picture = "Portrait_Germany_Erwin_Rommel.dds"
+	traits = { armor_officer panzer_leader }
+	skill = 3
+	id = 4
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Fedor von Bock"
+	picture = "Portrait_Germany_Fedor_von_Bock.dds"
+	traits = { infantry_officer infantry_leader }
+	skill = 3
+	id = 9
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 3
 }

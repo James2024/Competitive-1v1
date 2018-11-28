@@ -1,0 +1,23 @@
+political_actions = {
+	SOV_wargoal = {
+		
+		icon = generic_construction
+		
+		available = {
+			date = 1940.2.1
+		}
+		
+		visible = {
+			original_tag = SOV
+		}
+		
+		cost = 0
+		
+		complete_effect = {
+			create_wargoal = {
+				type = annex_everything
+				target = GER
+			}
+		}
+	}
+}

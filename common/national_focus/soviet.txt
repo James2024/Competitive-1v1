@@ -1,5 +1,5 @@
 focus_tree = {
-	id = SOVman_focus
+	id = soviet_focus
 	
 	country = {
 		factor = 0
@@ -43,7 +43,7 @@ focus = {
 			name = arty1
 			ahead_reduction = 1
 			uses = 1
-			category = artillery
+			technology = artillery3
 		}
 	}
 }
@@ -62,7 +62,7 @@ focus = {
 			name = arty2
 			ahead_reduction = 1
 			uses = 1
-			category = artillery
+			technology = artillery4
 		}
 	}
 }
@@ -81,7 +81,7 @@ focus = {
 			name = arty3
 			ahead_reduction = 1
 			uses = 1
-			category = artillery
+			technology = artillery5
 		}
 	}
 }

@@ -23,6 +23,7 @@ set_technology = {
 	motorised_infantry = 1
 	gw_artillery = 1
 	interwar_antiair = 1
+	antiair1 = 1
 	antiair2 = 1
 	gwtank = 1
 	basic_light_tank = 1
@@ -140,4 +141,78 @@ create_country_leader = {
 	traits = {
 		dictator
 	}
+}
+create_corps_commander = {
+	name = "Nikolai Vatutin"
+	picture = "Portrait_Soviet_Nikolai_Fyodorovich_Vatutin.dds"
+	traits = { infantry_officer infantry_leader }
+	skill = 3
+	
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Kirill Meretskov"
+		picture = "Portrait_Soviet_Kirill_Meretskov.dds"
+	traits = { infantry_officer infantry_leader }
+	skill = 3
+	
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Vasily Kuznetsov"
+		picture = "Portrait_Soviet_Vasily_Kuznetsov.dds"
+	traits = { infantry_officer infantry_leader }
+	skill = 3
+	
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Andrey Vlasov"
+		picture = "Portrait_Soviet_Andrey_Vlasov.dds"
+	traits = { infantry_officer infantry_leader }
+	id = 412
+	skill = 3
+	
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Konstantin Rokossovsky"
+	id = 402
+		picture = "Portrait_Soviet_Konstantin_Rokossovsky.dds"
+	traits = { armor_officer panzer_leader }
+	skill = 3
+	
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 3
+}
+
+create_field_marshal = {
+	name = "Kliment Voroshilov"
+	id = 405
+		picture = "Portrait_Soviet_Kliment_Voroshilov.dds"
+	traits = { infantry_officer infantry_leader organiser logistics_wizard }
+	skill = 3
+
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 3
 }
