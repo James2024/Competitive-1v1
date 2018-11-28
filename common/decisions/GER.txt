@@ -1,7 +1,7 @@
 political_actions = {
 	GER_wargoal = {
 		
-		icon = generic_construction
+		icon = generic_prepare_civil_war
 		
 		available = {
 			date = 1940.2.1
