@@ -6,7 +6,7 @@ set_research_slots = 0
 
 add_ideas = {
 	limited_conscription
-	neutrality_idea	
+	trade_unionism
 }
 
 set_technology = {

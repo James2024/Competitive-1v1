@@ -4,12 +4,12 @@ state={
 	name="STATE_28" # Alsace-Lorraine
 	manpower = 1915600
 	resources = {
-		steel = 500
-		tungsten = 400
-		oil = 400
-		rubber = 300
-		chromium = 200
-		aluminium=400
+		steel = 250
+		tungsten = 200
+		oil = 300
+		rubber = 150
+		chromium = 100
+		aluminium = 187
 	}
 	
 	state_category = city
