@@ -14,7 +14,7 @@ focus_tree = {
 
 focus = {
 	id = SOV_army
-	icon = GFX_goal_generic_construction
+	icon = GFX_goal_generic_allies_build_infantry
 	x = 4
 	y = 0
 	cost = 5
@@ -31,7 +31,7 @@ focus = {
 
 focus = {
 	id = SOV_arty1
-	icon = GFX_goal_generic_construction
+	icon = GFX_goal_generic_army_artillery2
 	x = -2
 	y = 1
 	relative_position_id = SOV_army
@@ -50,7 +50,7 @@ focus = {
 
 focus = {
 	id = SOV_arty2
-	icon = GFX_goal_generic_construction
+	icon = GFX_goal_generic_army_artillery2
 	x = 0
 	y = 1
 	relative_position_id = SOV_arty1
@@ -69,7 +69,7 @@ focus = {
 
 focus = {
 	id = SOV_arty3
-	icon = GFX_goal_generic_construction
+	icon = GFX_goal_generic_army_artillery2
 	x = 0
 	y = 1
 	relative_position_id = SOV_arty2
@@ -88,7 +88,7 @@ focus = {
 
 focus = {
 	id = SOV_antiair
-	icon = GFX_goal_generic_construction
+	icon = GFX_goal_generic_construct_military
 	x = 0
 	y = 1
 	cost = 5
@@ -107,7 +107,7 @@ focus = {
 
 focus = {
 	id = SOV_antiair2
-	icon = GFX_goal_generic_construction
+	icon = GFX_goal_generic_construct_military
 	x = 0
 	y = 1
 	cost = 5
@@ -126,7 +126,7 @@ focus = {
 
 focus = {
 	id = SOV_antiair3
-	icon = GFX_goal_generic_construction
+	icon = GFX_goal_generic_construct_military
 	x = 0
 	y = 1
 	cost = 5
@@ -145,7 +145,7 @@ focus = {
 
 focus = {
 	id = SOV_antitank
-	icon = GFX_goal_generic_construction
+	icon = GFX_goal_generic_army_artillery
 	x = 2
 	y = 1
 	cost = 5
@@ -164,7 +164,7 @@ focus = {
 
 focus = {
 	id = SOV_antitank2
-	icon = GFX_goal_generic_construction
+	icon = GFX_goal_generic_army_artillery
 	x = 0
 	y = 1
 	cost = 5
@@ -183,7 +183,7 @@ focus = {
 
 focus = {
 	id = SOV_antitank3
-	icon = GFX_goal_generic_construction
+	icon = GFX_goal_generic_army_artillery
 	x = 0
 	y = 1
 	cost = 5
@@ -202,7 +202,7 @@ focus = {
 
 focus = {
 	id = SOV_tank
-	icon = GFX_goal_generic_construction
+	icon = GFX_goal_generic_army_tanks
 	x = 4
 	y = 1
 	prerequisite = { focus = SOV_army }
@@ -226,7 +226,7 @@ focus = {
 
 focus = {
 	id = SOV_tank2
-	icon = GFX_goal_generic_construction
+	icon = GFX_goal_generic_army_tanks
 	x = 0
 	y = 1
 	prerequisite = { focus = SOV_tank }
@@ -250,7 +250,7 @@ focus = {
 
 focus = {
 	id = SOV_tank_variant
-	icon = GFX_goal_generic_construction
+	icon = GFX_goal_generic_army_tanks
 	x = 2
 	y = 1
 	prerequisite = { focus = SOV_tank }
@@ -280,7 +280,7 @@ focus = {
 
 focus = {
 	id = SOV_air
-	icon = GFX_goal_generic_construction
+	icon = GFX_goal_generic_build_airforce
 	x = 15
 	y = 0
 	cost = 5
@@ -297,7 +297,7 @@ focus = {
 
 focus = {
 	id = SOV_fighter
-	icon = GFX_goal_generic_construction
+	icon = GFX_goal_generic_air_fighter
 	x = -2
 	y = 1
 	cost = 10
@@ -316,7 +316,7 @@ focus = {
 
 focus = {
 	id = SOV_cas
-	icon = GFX_goal_generic_construction
+	icon = GFX_goal_generic_CAS
 	x = 0
 	y = 1
 	cost = 10
@@ -336,7 +336,7 @@ focus = {
 
 focus = {
 	id = SOV_tac
-	icon = GFX_goal_generic_construction
+	icon = GFX_goal_generic_air_bomber
 	x = 2
 	y = 1
 	cost = 10
@@ -355,7 +355,7 @@ focus = {
 
 focus = {
 	id = SOV_industry
-	icon = GFX_goal_generic_construction
+	icon = GFX_goal_generic_production
 	x = 21
 	y = 0
 	cost = 10
@@ -372,7 +372,7 @@ focus = {
 
 focus = { 
 	id = SOV_construction_effort
-	icon = GFX_goal_generic_construction
+	icon = GFX_goal_generic_construct_civ_factory
 	x = -1
 	y = 1
 	cost = 10
@@ -475,7 +475,7 @@ focus = {
 
 focus = { 
 	id = SOV_construction_effort2
-	icon = GFX_goal_generic_construction
+	icon = GFX_goal_generic_construct_civ_factory
 	x = 0
 	y = 1
 	cost = 10
@@ -578,7 +578,7 @@ focus = {
 
 focus = { 
 	id = SOV_construction_effort3
-	icon = GFX_goal_generic_construction
+	icon = GFX_goal_generic_construct_civ_factory
 	x = 0
 	y = 1
 	cost = 10
@@ -681,7 +681,7 @@ focus = {
 
 focus = {
 	id = SOV_tech_slot
-	icon = GFX_goal_generic_construction
+	icon = GFX_focus_research
 	x = 0
 	y = 1
 	relative_position_id = SOV_construction_effort3
@@ -694,7 +694,7 @@ focus = {
 
 focus = {
 	id = SOV_mil
-	icon = GFX_goal_generic_construction
+	icon = GFX_goal_generic_construct_mil_factory
 	x = 1
 	y = 1
 	relative_position_id = SOV_industry
@@ -827,7 +827,7 @@ focus = {
 
 focus = {
 	id = SOV_mil2
-	icon = GFX_goal_generic_construction
+	icon = GFX_goal_generic_construct_mil_factory
 	x = 0
 	y = 1
 	relative_position_id = SOV_mil
@@ -960,7 +960,7 @@ focus = {
 
 focus = {
 	id = SOV_mil3
-	icon = GFX_goal_generic_construction
+	icon = GFX_goal_generic_construct_mil_factory
 	x = 0
 	y = 1
 	relative_position_id = SOV_mil2

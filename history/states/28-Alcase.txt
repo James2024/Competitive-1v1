@@ -4,7 +4,7 @@ state={
 	name="STATE_28" # Alsace-Lorraine
 	manpower = 1915600
 	resources = {
-		steel = 250
+		steel = 300
 		tungsten = 200
 		oil = 300
 		rubber = 150
@@ -21,7 +21,6 @@ state={
 		victory_points = { 9559 10 }
 		buildings = {
 			infrastructure = 10
-			industrial_complex = 3
 			549 = {
 				0
 
