@@ -3,6 +3,8 @@ political_actions = {
 		
 		icon = generic_prepare_civil_war
 		
+		fire_only_once = yes
+		
 		available = {
 			date = 1941.2.1
 		}
