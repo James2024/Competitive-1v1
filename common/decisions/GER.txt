@@ -7,6 +7,8 @@ political_actions = {
 			date = 1941.2.1
 		}
 		
+		fire_only_once = yes
+		
 		visible = {
 			original_tag = GER
 		}
