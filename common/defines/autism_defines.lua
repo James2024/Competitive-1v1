@@ -33,9 +33,7 @@ NDefines.NCountry.BASE_MOBILIZATION_SPEED = 0.04
 NDefines.NCountry.NUM_DAYS_TO_FULLY_DELETE_STOCKPILED_EQUIPMENT = 999
 NDefines.NCountry.SPECIAL_FORCES_CAP_MIN = 70
 NDefines.NCountry.SPECIAL_FORCES_CAP_BASE = 0.10
-NDefines.NCountry.AIR_SUPPLY_CONVERSION_SCALE = 0.39 -- air suppply? 0.05 original but range is lower
-NDefines.NCountry.WAR_SUPPORT_OFFNSIVE_WAR = 0
-NDefines.NCountry.WAR_SUPPORT_DEFENSIVE_WAR = 0
+NDefines.NCountry.AIR_SUPPLY_CONVERSION_SCALE = 0.39 -- air supply? 0.05 original but range is lower
 
 -- set default occupation law
 NDefines.NPolitics.DEFAULT_OCCUPATION_POLICY = 3
@@ -90,6 +88,7 @@ NDefines.NMilitary.XP_GAIN_PER_OVERRUN_UNIT = 0.0
 NDefines.NMilitary.XP_GAIN_FOR_SHATTERING = 0.0
 
 ---Building
+NDefines.NBuildings.MAX_SHARED_SLOTS = 40 --amount of potential max building slots in a state
 NDefines.NBuildings.INFRA_TO_SUPPLY = 3
 ---Navy
 NDefines.NNavy.NAVAL_SUPREMACY_CAN_INVADE = 0.6
@@ -110,6 +109,7 @@ NDefines.NNavy.NAVAL_TRANSFER_BASE_SPEED = 12
 ---Air
 NDefines.NAir.AIR_DEPLOYMENT_DAYS = 1							-- Days to deploy one air wing
 NDefines.NAir.ACE_EARN_CHANCE_BASE = 0.01                        -- Base chance % for ace pilot to be created. Happens only when successfully kill airplane/ship or damage the buildings.
+NDefines.NAir.COMBAT_DAMAGE_SCALE = 0.2  -- Higher value = more shot down planes base 0.1
 NDefines.NAir.ANTI_AIR_PLANE_DAMAGE_CHANCE = 0.075	-- 0.1 base Anti Air Gun hit chance
 NDefines.NAir.AIR_WING_MAX_SIZE = 1600
 NDefines.NAir.ACE_WING_SIZE_MAX_BONUS = 1
@@ -117,10 +117,11 @@ NDefines.NAir.STRATEGIC_BOMBER_NUKE_AIR_SUPERIORITY = 0.90
 NDefines.NAir.NAVAL_STRIKE_DAMAGE_TO_STR = 1.0
 NDefines.NAir.NAVAL_KAMIKAZE_DAMAGE_MULT = 5.0  -- vanilla is like 20
 NDefines.NAir.NAVAL_STRIKE_DAMAGE_TO_ORG = 1.0
+NDefines.NAir.AA_INDUSTRY_AIR_DAMAGE_FACTOR = -0.16 -- -0.12	5x levels = 60% defense from bombing
 NDefines.NAir.EFFICIENCY_REGION_CHANGE_DAILY_GAIN_TACTICAL_BOMBER =	0.1	-- base 0.192 How much efficiency to regain per day. Gain applied hourly.
 NDefines.NAir.AIR_COMBAT_FINAL_DAMAGE_SCALE = 0.5 -- 0.015	 % how many max disrupted only planes are allowed to die in a single combat
 NDefines.NAir.ANTI_AIR_MAXIMUM_DAMAGE_REDUCTION_FACTOR = 0.66 -- .75 Maximum damage reduction factor applied to incoming air attacks against units with AA.
-
+NDefines.NAir.ANTI_AIR_ATTACK_TO_DAMAGE_REDUCTION_FACTOR = 0.75 -- original 1.00 Balancing value to convert equipment stat anti_air_attack to the damage reduction modifier apply to incoming air attacks against units with AA.
 ---AI
 NDefines.NAI.DIPLOMACY_ACCEPT_ATTACHE_BASE = 100
 NDefines.NAI.DIPLOMACY_ACCEPT_ATTACHE_OPINION_TRASHHOLD = 0
