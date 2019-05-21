@@ -24,9 +24,6 @@
  GER_mil:0 "Military Factory"
  GER_mil2:0 "Military Factory 2"
  GER_mil3:0 "Military Factory 3"
- GER_equipment_effort:0 "Equipment Effort"
- GER_equipment_effort1:0 "Equipment Effort 2"
- GER_equipment_effort2:0 "Equipment Effort 3"
  SOV_army:0 "Army Focus"
  SOV_arty1:0 "Arty Development"
  SOV_arty2:0 "Arty Development 2"
@@ -52,8 +49,5 @@
  SOV_mil:0 "Military Factory"
  SOV_mil2:0 "Military Factory 2"
  SOV_mil3:0 "Military Factory 3"
- SOV_equipment_effort:0 "Equipment Effort"
- SOV_equipment_effort1:0 "Equipment Effort 2"
- SOV_equipment_effort2:0 "Equipment Effort 3"
  
 

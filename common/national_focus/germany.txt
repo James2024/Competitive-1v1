@@ -11,68 +11,7 @@ focus_tree = {
 	}
 	
 	default = no
-	focus = {
-		id = GER_equipment_effort
-		icon = GFX_goal_generic_small_arms
-		prerequisite = { focus = GER_army }
-		x = -1
-		y = 1
-		relative_position_id = army_effort
-		cost = 10
 
-		available_if_capitulated = yes
-
-		completion_reward = {
-			add_tech_bonus = {
-				name = infantry_artillery_bonus
-				bonus = 0.5
-				uses = 1
-				category = infantry_weapons
-			}
-		}
-	}
-	
-	focus = {
-		id = GER_equipment_effort2
-		icon = GFX_goal_generic_small_arms
-		prerequisite = { focus = GER_equipment_effort }
-		x = 0
-		y = 1
-		relative_position_id = GER_equipment_effort
-		cost = 10
-
-		available_if_capitulated = yes
-
-		completion_reward = {
-			add_tech_bonus = {
-				name = infantry_artillery_bonus
-				bonus = 0.5
-				uses = 1
-				category = infantry_weapons
-			}
-		}
-	}
-	
-	focus = {
-		id = GER_equipment_effort3
-		icon = GFX_goal_generic_small_arms
-		prerequisite = { focus = GER_equipment_effort2 }
-		x = 0
-		y = 1
-		relative_position_id = GER_equipment_effort2
-		cost = 10
-
-		available_if_capitulated = yes
-
-		completion_reward = {
-			add_tech_bonus = {
-				name = infantry_artillery_bonus
-				bonus = 0.5
-				uses = 1
-				category = infantry_weapons
-			}
-		}
-	}
 focus = {
 	id = GER_army
 	icon = GFX_goal_generic_allies_build_infantry
@@ -83,7 +22,7 @@ focus = {
 	completion_reward = {
 		add_tech_bonus = {
 			name = land_doc_bonus
-			bonus = 1
+			bonus = 20
 			uses = 10
 			category = land_doctrine
 		}
@@ -102,7 +41,7 @@ focus = {
 	completion_reward = {
 		add_tech_bonus = {
 			name = arty1
-			ahead_reduction = 1
+			ahead_reduction = 6
 			uses = 1
 			technology = artillery3
 		}
@@ -121,7 +60,7 @@ focus = {
 	completion_reward = {
 		add_tech_bonus = {
 			name = arty2
-			ahead_reduction = 1
+			ahead_reduction = 6
 			uses = 1
 			technology = artillery4
 		}
@@ -140,7 +79,7 @@ focus = {
 	completion_reward = {
 		add_tech_bonus = {
 			name = arty3
-			ahead_reduction = 1
+			ahead_reduction = 6
 			uses = 1
 			technology = artillery5
 		}
@@ -159,7 +98,7 @@ focus = {
 	completion_reward = {
 		add_tech_bonus = {
 			name = antiair
-			ahead_reduction = 1
+			ahead_reduction = 6
 			uses = 1
 			technology = antiair3
 		}
@@ -178,7 +117,7 @@ focus = {
 	completion_reward = {
 		add_tech_bonus = {
 			name = antiair2
-			ahead_reduction = 1
+			ahead_reduction = 6
 			uses = 1
 			technology = antiair4
 		}
@@ -197,7 +136,7 @@ focus = {
 	completion_reward = {
 		add_tech_bonus = {
 			name = antiair3
-			ahead_reduction = 1
+			ahead_reduction = 6
 			uses = 1
 			technology = antiair5
 		}
@@ -216,7 +155,7 @@ focus = {
 	completion_reward = {
 		add_tech_bonus = {
 			name = AT
-			ahead_reduction = 1
+			ahead_reduction = 6
 			uses = 1
 			category = cat_anti_tank
 		}
@@ -235,7 +174,7 @@ focus = {
 	completion_reward = {
 		add_tech_bonus = {
 			name = AT2
-			ahead_reduction = 1
+			ahead_reduction = 6
 			uses = 1
 			category = cat_anti_tank
 		}
@@ -254,7 +193,7 @@ focus = {
 	completion_reward = {
 		add_tech_bonus = {
 			name = AT3
-			ahead_reduction = 1
+			ahead_reduction = 6
 			uses = 1
 			category = cat_anti_tank
 		}
@@ -273,7 +212,7 @@ focus = {
 	completion_reward = {
 		add_tech_bonus = {
 			name = tank
-			ahead_reduction = 1
+			ahead_reduction = 6
 			uses = 1
 				technology = improved_medium_tank
 				technology = advanced_medium_tank
@@ -297,7 +236,7 @@ focus = {
 	completion_reward = {
 		add_tech_bonus = {
 			name = tank2
-			bonus = 0.5
+			bonus = 3
 			uses = 1
 				technology = improved_medium_tank
 				technology = advanced_medium_tank
@@ -321,7 +260,7 @@ focus = {
 	completion_reward = {
 		add_tech_bonus = {
 			name = tank_variant
-			bonus = 0.5
+			bonus = 3
 			uses = 2
 				technology = improved_medium_td
 				technology = improved_medium_art
@@ -349,7 +288,7 @@ focus = {
 	completion_reward = {
 		add_tech_bonus = {
 			name = air_doctrine
-			bonus = 1
+			bonus = 20
 			uses = 11
 			category = air_doctrine
 		}
@@ -368,7 +307,7 @@ focus = {
 	completion_reward = {
 		add_tech_bonus = {
 			name = fighter_bonus
-			bonus = 0.5
+			bonus = 3
 			uses = 1
 			technology = fighter3
 		}
@@ -387,7 +326,7 @@ focus = {
 	completion_reward = {
 		add_tech_bonus = {
 			name = cas_bonus
-			bonus = 0.5
+			bonus = 3
 			uses = 1
 			category = cas_bomber
 			
@@ -407,7 +346,7 @@ focus = {
 	completion_reward = {
 		add_tech_bonus = {
 			name = tac_bonus
-			bonus = 0.5
+			bonus = 3
 			uses = 1
 			category = tactical_bomber
 		}
@@ -424,7 +363,7 @@ focus = {
 	completion_reward = {
 		add_tech_bonus = {
 			name = industry
-			bonus = 0.5
+			bonus = 3
 			uses = 1
 			category = industry
 		}
