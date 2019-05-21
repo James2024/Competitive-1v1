@@ -320,16 +320,9 @@ set_convoys = 50
 set_politics = {
 
 	parties = {
-		democratic = { 
-			popularity = 10 #shared between all parties, should add to 100
-		}
-
-		fascism = {
-			popularity = 2
-		}
 		
 		communism = {
-			popularity = 88
+			popularity = 100
 		}
 	}
 	
