@@ -1,17 +1,16 @@
 ﻿capital = 361
 
-oob = "USA_1936"
-if = {
-	limit = { has_dlc = "Man the Guns" }
-		set_naval_oob = "USA_1936_naval_mtg"
-	else = {
-		set_naval_oob = "USA_1936_naval_legacy"
-	}
-}
+oob = "USA_1939"
 
+add_political_power = 1000
+army_experience = 500
+navy_experience = 100
+air_experience = 500
+set_stability = 1
+set_war_support = 1
+set_convoys = 1000
 set_research_slots = 4
-set_stability = 0.75
-set_war_support = 0
+
 set_variable = { var = senators_support value = 48 }
 set_variable = { var = senators_total value = 96 }
 set_variable = { var = representatives_support value = 218 }
@@ -91,7 +90,7 @@ if = {
 		basic_cruiser_armor_scheme = 1
 		cruiser_submarines = 1
 	}
-	set_naval_oob = "JAP_1936_naval"
+	set_naval_oob = "USA_1939_naval"
 }
 if = {
 	limit = { not = { has_dlc = "Man the Guns" } }
@@ -110,7 +109,7 @@ if = {
 		basic_carrier = 1
 		transport = 1
 	}
-	set_naval_oob = "JAP_1936_naval_legacy"
+	set_naval_oob = "USA_1939_naval_legacy"
 }
 
 #Monroe Doctrine
@@ -137,151 +136,19 @@ give_guarantee = ARG
 give_guarantee = URG
 
 1939.1.1 = {
-
-	add_political_power = 1199
-	
-	#adding ministers
-	add_ideas = {
-	}
-	remove_ideas = {
-		great_depression
-	}
-
-	#focuses
-	unlock_national_focus = USA_continue_the_new_deal
-	unlock_national_focus = USA_wpa
-	complete_national_focus = USA_war_department
-	complete_national_focus = USA_air_war_plans_division
-	complete_national_focus = USA_war_plans_division
-	complete_national_focus = USA_agricultural_adjustment_act
-	complete_national_focus = USA_neutrality_act
-	complete_national_focus = USA_intervention_in_asia	
-	complete_national_focus = USA_war_plan_orange
-	complete_national_focus = USA_intervention_in_europe		
-	complete_national_focus = USA_war_plan_black
-	complete_national_focus = USA_strategic_bombing
- 	complete_national_focus = USA_fair_labour_standards_act
-
-	set_global_flag = earhart_disappeared
-	oob = "USA_1939"
-	if = {
-		limit = { has_dlc = "Man the Guns" }
-			set_naval_oob = "USA_1939_naval_mtg"
-		else = {
-			set_naval_oob = "USA_1939_naval_legacy"
-		}
-	}
-
-set_technology = {
-	infantry_weapons = 1
-	infantry_weapons1 = 1
-	tech_support = 1		
-	tech_recon = 1
-	tech_engineers = 1
-	motorised_infantry = 1
-	marines  = 1
-	gw_artillery = 1
-	gwtank = 1
-	basic_light_tank = 1
-	#basic_heavy_tank = 1  # PLACEHOLDER
-	#basic_medium_tank = 1 # PLACEHOLDER
-	cv_early_fighter = 1
-	cv_CAS1 = 1
-	cv_naval_bomber1 = 1
-	early_fighter = 1
-	naval_bomber1 = 1
-	early_bomber = 1
-	CAS1 = 1
-	early_submarine = 1
-	basic_submarine = 1
-	early_destroyer = 1
-	early_light_cruiser = 1
-	basic_light_cruiser = 1
-	early_heavy_cruiser = 1
-	basic_heavy_cruiser = 1
-	early_battleship = 1
-	basic_battleship = 1
-	early_battlecruiser = 1
-	early_carrier = 1
-	basic_carrier = 1
-	transport = 1
-	trench_warfare = 1
-	base_strike = 1
-	synth_oil_experiments = 1
-}
-if = {
-	limit = {
-		has_dlc = "Man the Guns"
-	}
-	set_technology = {
-		basic_naval_mines = 1
-		submarine_mine_laying = 1
-		basic_torpedo = 1
-		basic_battery = 1
-		basic_light_battery = 1
-		basic_heavy_battery = 1
-		basic_medium_battery = 1
-		improved_ship_torpedo_launcher = 1
-		early_ship_hull_submarine = 1
-		basic_ship_hull_submarine = 1
-		early_ship_hull_light = 1
-		early_ship_hull_cruiser = 1
-		basic_ship_hull_cruiser = 1
-		early_ship_hull_heavy = 1
-		basic_ship_hull_heavy = 1
-		early_ship_hull_carrier = 1
-		basic_ship_hull_carrier = 1
-		mtg_transport = 1
-		coastal_defense_ships = 1
-		basic_secondary_battery = 1
-		basic_depth_charges = 1
-		basic_cruiser_armor_scheme = 1
-		cruiser_submarines = 1
-	}
-	set_naval_oob = "JAP_1936_naval"
-}
-if = {
-	limit = { not = { has_dlc = "Man the Guns" } }
-	set_technology = {
-		early_submarine = 1
-		basic_submarine = 1
-		early_destroyer = 1
-		early_light_cruiser = 1
-		basic_light_cruiser = 1
-		early_heavy_cruiser = 1
-		basic_heavy_cruiser = 1
-		early_battleship = 1
-		basic_battleship = 1
-		early_battlecruiser = 1
-		early_carrier = 1
-		basic_carrier = 1
-		transport = 1
-	}
-	set_naval_oob = "JAP_1936_naval_legacy"
-}
+diplomatic_relation = { country = TUR relation = non_aggression_pact }
 }
 
 
-
-
-set_convoys = 400
 
 
 set_politics = {
 
 	parties = {
 		democratic = { 
-			popularity = 99
+			popularity = 100
 		}
 
-		fascism = {
-			popularity = 0
-		}
-		
-		communism = {
-			popularity = 1
-			#banned = no #default is no
-		}
 	}
 	
 	ruling_party = democratic
@@ -291,11 +158,9 @@ set_politics = {
 }
 
 add_ideas = {
-	undisturbed_isolation
-	great_depression
-	disarmed_nation
-	free_trade
-	home_of_the_free
+	closed_economy
+	limited_conscription
+	partial_economic_mobilisation
 }
 
 
@@ -303,32 +168,6 @@ add_ideas = {
 set_autonomy = {
 	target = PHI
 	autonomous_state =  autonomy_puppet
-}
-
-1939.1.1 = {
-
-	set_politics = {
-
-		parties = {
-			democratic = { 
-				popularity = 99
-			}
-
-			fascism = {
-				popularity = 0
-			}
-			
-			communism = {
-				popularity = 1
-				#banned = no #default is no
-			}
-		}
-		
-		ruling_party = democratic
-		last_election = "1936.11.3"
-		election_frequency = 48
-		elections_allowed = yes
-	}
 }
 
 create_country_leader = {
