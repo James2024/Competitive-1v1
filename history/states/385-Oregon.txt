@@ -4,14 +4,14 @@ state={
 	name="STATE_385"
 	manpower = 1
 	
-	state_category = town
+	state_category = megalopolis
 
 	history={
 		owner = TUR
 		buildings = {
 			infrastructure = 7
 			air_base = 6
-			dockyard = 10
+			dockyard = 20
 			12211 = {
 				naval_base = 3
 			}

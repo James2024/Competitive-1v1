@@ -4,7 +4,7 @@ state={
 	name="STATE_378"
 	manpower = 75000000
 	
-	state_category = metropolis
+	state_category = megalopolis
 	
 	resources={
 	oil = 100
@@ -18,7 +18,7 @@ state={
 	history={
 		owner = TUR
 		buildings = {
-		    dockyard = 10
+		    dockyard = 20
 			infrastructure = 7
 			air_base = 10
 			1562 = {

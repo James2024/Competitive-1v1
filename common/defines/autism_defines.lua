@@ -113,6 +113,7 @@ NDefines.NMilitary.XP_GAIN_FOR_SHATTERING = 0.0
 NDefines.NBuildings.MAX_SHARED_SLOTS = 40 --amount of potential max building slots in a state
 NDefines.NBuildings.INFRA_TO_SUPPLY = 2.5
 NDefines.NBuildings.AIRBASE_CAPACITY_MULT = 100
+NDefines.NBuildings.MAX_BUILDING_LEVELS = 20			-- Max levels a building can have.
 
 ---AA Balance
 NDefines.NMilitary.ANTI_AIR_ATTACK_TO_AMOUNT = 0.001 -- 0.005

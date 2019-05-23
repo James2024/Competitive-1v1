@@ -9,7 +9,7 @@ state={
 		oil = 300
 		rubber = 150
 		chromium = 100
-		aluminium = 200
+		aluminium = 186
 	}
 	
 	state_category = city

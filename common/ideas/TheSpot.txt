@@ -9,6 +9,8 @@ ideas = {
             picture = generic_pp_unity_bonus
 
             modifier = {
+				production_speed_buildings_factor = -2000
+				
                 political_power_cost = 2
                 conscription_factor = -1
 

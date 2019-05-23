@@ -273,7 +273,7 @@ units= {
 		}					
 		task_force = {					
 			name = "6th Submarine Squadron"			# CO: Steinwachs		
-			location = 1562 # San Diego
+			location = 9671 # San Diego
 			# 15th Submarine Division				
 			ship = { name = "USS Salmon" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = JAP version_name = "Salmon Class" } } }
 			ship = { name = "USS Seal" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = JAP version_name = "Salmon Class" } } }
