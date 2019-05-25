@@ -9,7 +9,7 @@ state={
 		owner = TUR
 		add_core_of = JAP
 		buildings = {
-		    arms_factory = 10
+		    arms_factory = 18
 			infrastructure = 7
 		}
 		

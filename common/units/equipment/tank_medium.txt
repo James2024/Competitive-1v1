@@ -40,12 +40,14 @@ equipments = {
 		#Space taken in convoy
 		lend_lease_cost = 12
 		
-		build_cost_ic = 12 
+		build_cost_ic = 14.5 
 		resources = {
-			oil = 1
+			#oil = 1
 			tungsten = 2
 			steel = 2
 		}
+		
+		fuel_consumption = 3.6
 	}
 
 	# 1939
@@ -74,17 +76,17 @@ equipments = {
 		#Defensive Abilities
 		defense = 7
 		breakthrough = 51
-		armor_value = 84 #increased from 80 to 84
+		armor_value = 80
 
 		#Offensive Abilities
 		soft_attack = 20
 		hard_attack = 19
-		ap_attack = 85 #increased from 81 to 85
+		ap_attack = 81
 		air_attack = 0
 
-		build_cost_ic = 13
+		build_cost_ic = 15.5
 		resources = {
-			oil = 1
+			#oil = 1
 			tungsten = 2
 			steel = 3
 		}	
@@ -114,9 +116,9 @@ equipments = {
 		ap_attack = 91
 		air_attack = 0
 		
-		build_cost_ic = 14
+		build_cost_ic = 16.5
 		resources = {
-			oil = 2
+			#oil = 2
 			tungsten = 2
 			steel = 4
 		}	
@@ -161,13 +163,14 @@ equipments = {
 		ap_attack = 5
 		air_attack = 0
 
-		build_cost_ic = 12
+		build_cost_ic = 14.5
 		
 		resources = {
-			oil = 1
+			#oil = 1
 			tungsten = 3
 			steel = 2
 		}
+		fuel_consumption = 1.8
 	}
 
 	medium_tank_artillery_equipment_1 = {
@@ -207,12 +210,12 @@ equipments = {
 		soft_attack = 72
 		hard_attack = 1.5
 		
-		build_cost_ic = 13
+		build_cost_ic = 15.5
 		
 		resources = {
 			steel = 3
 			tungsten = 3
-			oil = 1
+			#oil = 1
 		}
 	}
 
@@ -241,12 +244,12 @@ equipments = {
 		soft_attack = 84
 		hard_attack = 2
 		
-		build_cost_ic = 14
+		build_cost_ic = 16.5
 		
 		resources = {
 			steel = 4
 			tungsten = 3
-			oil = 2
+			#oil = 2
 		}
 	}
 
@@ -289,13 +292,14 @@ equipments = {
 		ap_attack = 88
 		air_attack = 0
 		
-		build_cost_ic = 12
+		build_cost_ic = 14.5
 		
 		resources = {
-			oil = 1
+			#oil = 1
 			tungsten = 4
 			steel = 2
 		}
+		fuel_consumption = 1.8
 	}
 
 	# 1939
@@ -338,10 +342,10 @@ equipments = {
 		hard_attack = 26
 		ap_attack = 110
 		
-		build_cost_ic = 13
+		build_cost_ic = 15.5
 		
 		resources = {
-			oil = 1
+			#oil = 1
 			tungsten = 4
 			steel = 3
 		}		
@@ -374,10 +378,10 @@ equipments = {
 		hard_attack = 32
 		ap_attack = 120
 		
-		build_cost_ic = 14
+		build_cost_ic = 16.5
 		
 		resources = {
-			oil = 2
+			#oil = 2
 			tungsten = 4
 			steel = 4
 		}
@@ -421,15 +425,16 @@ equipments = {
 		soft_attack = 4.5
 		hard_attack = 3
 		ap_attack = 40
-		air_attack = 18
+		air_attack = 22
 
-		build_cost_ic = 12
+		build_cost_ic = 14.5
 		
 		resources = {
-			oil = 1
+			#oil = 1
 			tungsten = 2
 			steel = 2
 		}
+		fuel_consumption = 0.9
 	}
 
 	medium_tank_aa_equipment_1 = {
@@ -470,12 +475,12 @@ equipments = {
 		soft_attack = 6
 		hard_attack = 4.5
 		ap_attack = 60
-		air_attack = 24
+		air_attack = 32
 		
-		build_cost_ic = 13
+		build_cost_ic = 15.5
 		
 		resources = {
-			oil = 1
+			#oil = 1
 			tungsten = 2
 			steel = 3
 		}
@@ -506,12 +511,12 @@ equipments = {
 		soft_attack = 7.5
 		hard_attack = 6
 		ap_attack = 70
-		air_attack = 33
+		air_attack = 43
 		
-		build_cost_ic = 14
+		build_cost_ic = 16.5
 		
 		resources = {
-			oil = 2
+			#oil = 2
 			tungsten = 2
 			steel = 4
 		}		

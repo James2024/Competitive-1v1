@@ -28,7 +28,7 @@ state={
 
 				}
 				CHI = {
-					
+					transfer_state = PREV
 
 				}
 			}

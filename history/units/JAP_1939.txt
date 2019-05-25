@@ -5,9 +5,13 @@
 		infantry = { x = 0 y = 0 }
 		infantry = { x = 0 y = 1 }
 		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+		infantry = { x = 0 y = 4 }
         infantry = { x = 1 y = 0 }
 		infantry = { x = 1 y = 1 }
 		infantry = { x = 1 y = 2 }
+		infantry = { x = 1 y = 3 }
+		infantry = { x = 1 y = 4 }
 	}
 	
 	support = {
@@ -556,79 +560,6 @@ units = {
 		division_template = "Infantry-Division"
 		start_experience_factor = 0.3
 	}
-	
-	navy = {
-		name = "Japanese Navy" #Later assigned for the Chinenese theater
-		base = 9998
-		location = 9998
-
-		ship = { name = "Carrier" definition = carrier equipment = { carrier_1 = {amount = 1 owner = JAP} } 
-			air_wings = { 
-				cv_CAS_equipment_1 = { owner = "JAP" amount = 12 }
-				cv_nav_bomber_equipment_1 =  { owner = "JAP" amount = 24 }
-			}
-		}
-		ship = { name = "Battleship" definition = battleship equipment = { battleship_1 = {amount = 1 owner = JAP} } }
-		ship = { name = "Heavy Cruiser" definition = heavy_cruiser equipment = { heavy_cruiser_1 = {amount = 1 owner = JAP} } }
-        ship = { name = "Destroyer" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP} } }
-		ship = { name = "Light Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = {amount = 1 owner = JAP} } }
-		ship = { name = "Submarine" definition = submarine equipment = { submarine_1 = {amount = 1 owner = JAP } } }
-		ship = { name = "Carrier" definition = carrier equipment = { carrier_1 = {amount = 1 owner = JAP} } 
-			air_wings = { 
-				cv_CAS_equipment_1 = { owner = "JAP" amount = 12 }
-				cv_nav_bomber_equipment_1 =  { owner = "JAP" amount = 24 }
-			}
-		}
-		ship = { name = "Battleship" definition = battleship equipment = { battleship_1 = {amount = 1 owner = JAP} } }
-		ship = { name = "Heavy Cruiser" definition = heavy_cruiser equipment = { heavy_cruiser_1 = {amount = 1 owner = JAP} } }
-        ship = { name = "Destroyer" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP} } }
-		ship = { name = "Light Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = {amount = 1 owner = JAP} } }
-		ship = { name = "Submarine" definition = submarine equipment = { submarine_1 = {amount = 1 owner = JAP } } }
-		ship = { name = "Carrier" definition = carrier equipment = { carrier_1 = {amount = 1 owner = JAP} } 
-			air_wings = { 
-				cv_CAS_equipment_1 = { owner = "JAP" amount = 12 }
-				cv_nav_bomber_equipment_1 =  { owner = "JAP" amount = 24 }
-			}
-		}
-		ship = { name = "Battleship" definition = battleship equipment = { battleship_1 = {amount = 1 owner = JAP} } }
-		ship = { name = "Heavy Cruiser" definition = heavy_cruiser equipment = { heavy_cruiser_1 = {amount = 1 owner = JAP} } }
-        ship = { name = "Destroyer" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP} } }
-		ship = { name = "Light Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = {amount = 1 owner = JAP} } }
-		ship = { name = "Submarine" definition = submarine equipment = { submarine_1 = {amount = 1 owner = JAP } } }
-		ship = { name = "Carrier" definition = carrier equipment = { carrier_1 = {amount = 1 owner = JAP} } 
-			air_wings = { 
-				cv_CAS_equipment_1 = { owner = "JAP" amount = 12 }
-				cv_nav_bomber_equipment_1 =  { owner = "JAP" amount = 24 }
-			}
-		}
-		ship = { name = "Battleship" definition = battleship equipment = { battleship_1 = {amount = 1 owner = JAP} } }
-		ship = { name = "Heavy Cruiser" definition = heavy_cruiser equipment = { heavy_cruiser_1 = {amount = 1 owner = JAP} } }
-        ship = { name = "Destroyer" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP} } }
-		ship = { name = "Light Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = {amount = 1 owner = JAP} } }
-		ship = { name = "Submarine" definition = submarine equipment = { submarine_1 = {amount = 1 owner = JAP } } }
-		ship = { name = "Carrier" definition = carrier equipment = { carrier_1 = {amount = 1 owner = JAP} } 
-			air_wings = { 
-				cv_CAS_equipment_1 = { owner = "JAP" amount = 12 }
-				cv_nav_bomber_equipment_1 =  { owner = "JAP" amount = 24 }
-			}
-		}
-		ship = { name = "Battleship" definition = battleship equipment = { battleship_1 = {amount = 1 owner = JAP} } }
-		ship = { name = "Heavy Cruiser" definition = heavy_cruiser equipment = { heavy_cruiser_1 = {amount = 1 owner = JAP} } }
-        ship = { name = "Destroyer" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP} } }
-		ship = { name = "Light Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = {amount = 1 owner = JAP} } }
-		ship = { name = "Submarine" definition = submarine equipment = { submarine_1 = {amount = 1 owner = JAP } } }
-		ship = { name = "Carrier" definition = carrier equipment = { carrier_1 = {amount = 1 owner = JAP} } 
-			air_wings = { 
-				cv_CAS_equipment_1 = { owner = "JAP" amount = 12 }
-				cv_nav_bomber_equipment_1 =  { owner = "JAP" amount = 24 }
-			}
-		}
-		ship = { name = "Battleship" definition = battleship equipment = { battleship_1 = {amount = 1 owner = JAP} } }
-		ship = { name = "Heavy Cruiser" definition = heavy_cruiser equipment = { heavy_cruiser_1 = {amount = 1 owner = JAP} } }
-        ship = { name = "Destroyer" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP} } }
-		ship = { name = "Light Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = {amount = 1 owner = JAP} } }
-		ship = { name = "Submarine" definition = submarine equipment = { submarine_1 = {amount = 1 owner = JAP } } }
-
 	}
 	
 	

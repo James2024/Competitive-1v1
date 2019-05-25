@@ -4,7 +4,7 @@ state={
 	name="STATE_377"
 	manpower = 1
 	
-	state_category = rural
+	state_category = megalopolis
 	
 	resources={
 	}
@@ -12,7 +12,7 @@ state={
 	history={
 		owner = TUR
 		buildings = {
-		    arms_factory = 10
+		    arms_factory = 20
 			infrastructure = 7
 			air_base = 2
 		}

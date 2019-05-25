@@ -410,7 +410,7 @@ AUS = {
 		}	
 	}
 
-	strategic_bomber_equipment = {
+	strat_bomber_equipment = {
 		prefix = ""
 		generic = { "Fernkampfgeschwader" }
 		generic_pattern = AIR_WING_NAME_GER_GENERIC
@@ -418,7 +418,7 @@ AUS = {
 		}	
 	}
 
-	jet_strategic_bomber_equipment = {
+	jet_strat_bomber_equipment = {
 		prefix = ""
 		generic = { "Fernkampfgeschwader zbV." "Schnellbombergeschwader" "Erprobungskommando" }
 		generic_pattern = AIR_WING_NAME_GER_GENERIC
@@ -569,7 +569,7 @@ BEL = {
 		}	
 	}
 
-	strategic_bomber_equipment = {
+	strat_bomber_equipment = {
 		prefix = ""
 		generic = { "Escadrille de Bombardement" "Bommenwerpergroep" }
 		generic_pattern = AIR_WING_NAME_BEL_GENERIC
@@ -577,7 +577,7 @@ BEL = {
 		}	
 	}
 
-	jet_strategic_bomber_equipment = {
+	jet_strat_bomber_equipment = {
 		prefix = ""
 		generic = { "Escadrille de Bombardement" "Bommenwerpergroep" }
 		generic_pattern = AIR_WING_NAME_BEL_GENERIC
@@ -736,7 +736,7 @@ BRA = {
 		}	
 	}
 
-	strategic_bomber_equipment = {
+	strat_bomber_equipment = {
 		prefix = ""
 		generic = { "Grupo de Bombardeiros" }
 		generic_pattern = AIR_WING_NAME_BRA_GENERIC
@@ -744,7 +744,7 @@ BRA = {
 		}	
 	}
 
-	jet_strategic_bomber_equipment = {
+	jet_strat_bomber_equipment = {
 		prefix = ""
 		generic = { "Grupo de Bombardeiros" }
 		generic_pattern = AIR_WING_NAME_BRA_GENERIC
@@ -895,7 +895,7 @@ BUL = {
 		}	
 	}
 
-	strategic_bomber_equipment = {
+	strat_bomber_equipment = {
 		prefix = ""
 		generic = { "Bombardirovatchen polk" }
 		generic_pattern = AIR_WING_NAME_BUL_GENERIC
@@ -903,7 +903,7 @@ BUL = {
 		}	
 	}
 
-	jet_strategic_bomber_equipment = {
+	jet_strat_bomber_equipment = {
 		prefix = ""
 		generic = { "Bombardirovatchen polk" }
 		generic_pattern = AIR_WING_NAME_BUL_GENERIC
@@ -1199,7 +1199,7 @@ CHI = {
 		}	
 	}
 
-	strategic_bomber_equipment = {
+	strat_bomber_equipment = {
 		prefix = ""
 		generic = { "Zhanlue Hongzhaji Dadui" }
 		generic_pattern = AIR_WING_NAME_CHI_GENERIC
@@ -1207,7 +1207,7 @@ CHI = {
 		}	
 	}
 
-	jet_strategic_bomber_equipment = {
+	jet_strat_bomber_equipment = {
 		prefix = ""
 		generic = { "Zhanlue Hongzhaji Dadui" }
 		generic_pattern = AIR_WING_NAME_CHI_GENERIC
@@ -1389,12 +1389,70 @@ CUB = {
 }
 
 CZE = {
+	submarine = {
+		prefix = ""
+		generic = { "Submarine" }
+		unique = {
+			"Zlín" "Kladno" "Most" "Karviná" "Frýdek-Místek" "Opava" "Karlovy Vary" "Teplice" "Děčín" "Jihlava" "Chomutov" "Přerov" "Mladá Boleslav"
+			"Praha" "Brno" "Ostrava" "Plzeň" "Liberec" "Olomouc" "Ústí nad Labem" "Hradec Králové" "České Budějovice" "Pardubice" "Havířov"
+		}
+	}
+	destroyer = {
+		prefix = ""
+		generic = { 
+			"Destroyer"
+		}
+		unique = {
+			"Zlín" "Kladno" "Most" "Karviná" "Frýdek-Místek" "Opava" "Karlovy Vary" "Teplice" "Děčín" "Jihlava" "Chomutov" "Přerov" "Mladá Boleslav"
+			"Praha" "Brno" "Ostrava" "Plzeň" "Liberec" "Olomouc" "Ústí nad Labem" "Hradec Králové" "České Budějovice" "Pardubice" "Havířov"
+		}
+	}
+	light_cruiser = {
+		prefix = ""
+		generic = { "Light Cruiser" }
+		unique = {
+			"Zlín" "Kladno" "Most" "Karviná" "Frýdek-Místek" "Opava" "Karlovy Vary" "Teplice" "Děčín" "Jihlava" "Chomutov" "Přerov" "Mladá Boleslav"
+			"Praha" "Brno" "Ostrava" "Plzeň" "Liberec" "Olomouc" "Ústí nad Labem" "Hradec Králové" "České Budějovice" "Pardubice" "Havířov"
+		}
+	}
+	heavy_cruiser = {
+		prefix = ""
+		generic = { "Heavy Cruiser" }
+		unique = {
+			"Praha" "Brno" "Ostrava" "Plzeň" "Liberec" "Olomouc" "Ústí nad Labem" "Hradec Králové" "České Budějovice" "Pardubice" "Havířov"
+			"Zlín" "Kladno" "Most" "Karviná" "Frýdek-Místek" "Opava" "Karlovy Vary" "Teplice" "Děčín" "Jihlava" "Chomutov" "Přerov" "Mladá Boleslav"
+		}
+	}
+	battle_cruiser = {
+		prefix = ""
+		generic = { "Battlecruiser" }
+		unique = {
+			"Praha" "Brno" "Ostrava" "Plzeň" "Liberec" "Olomouc" "Ústí nad Labem" "Hradec Králové" "České Budějovice" "Pardubice" "Havířov"
+			"Zlín" "Kladno" "Most" "Karviná" "Frýdek-Místek" "Opava" "Karlovy Vary" "Teplice" "Děčín" "Jihlava" "Chomutov" "Přerov" "Mladá Boleslav"
+		}
+	}
+	battleship = {
+		prefix = ""
+		generic = { "Battleship" }
+		unique = {
+			"Praha" "Brno" "Ostrava" "Plzeň" "Liberec" "Olomouc" "Ústí nad Labem" "Hradec Králové" "České Budějovice" "Pardubice" "Havířov"
+			"Zlín" "Kladno" "Most" "Karviná" "Frýdek-Místek" "Opava" "Karlovy Vary" "Teplice" "Děčín" "Jihlava" "Chomutov" "Přerov" "Mladá Boleslav"
+		}
+	}
+	carrier = {
+		prefix = ""
+		generic = { "Carrier" }
+		unique = {
+			"Praha" "Brno" "Ostrava" "Plzeň" "Liberec" "Olomouc" "Ústí nad Labem" "Hradec Králové" "České Budějovice" "Pardubice" "Havířov"
+			"Zlín" "Kladno" "Most" "Karviná" "Frýdek-Místek" "Opava" "Karlovy Vary" "Teplice" "Děčín" "Jihlava" "Chomutov" "Přerov" "Mladá Boleslav"
+		}
+	}
 	air_wing_names_template = AIR_WING_NAME_CZE_FALLBACK
 
 	#Air wings can only be named through archetype
 	fighter_equipment = {
 		prefix = ""
-		generic = { "stihaci letecky pluk" }
+		generic = { "Stihaci letecky pluk" }
 		generic_pattern = AIR_WING_NAME_CZE_GENERIC
 		unique = {
 		}	
@@ -1402,7 +1460,7 @@ CZE = {
 
 	jet_fighter_equipment = {
 		prefix = ""
-		generic = { "stihaci letecky pluk" }
+		generic = { "Stihaci letecky pluk" }
 		generic_pattern = AIR_WING_NAME_CZE_GENERIC
 		unique = {
 		}	
@@ -1410,7 +1468,7 @@ CZE = {
 
 	heavy_fighter_equipment = {
 		prefix = ""
-		generic = { "stihaci letecky pluk" }
+		generic = { "Stihaci letecky pluk" }
 		generic_pattern = AIR_WING_NAME_CZE_GENERIC
 		unique = {
 		}	
@@ -1418,7 +1476,7 @@ CZE = {
 
 	CAS_equipment = {
 		prefix = ""
-		generic = { "bombardovaci letecky pluk" }
+		generic = { "Bombardovaci letecky pluk" }
 		generic_pattern = AIR_WING_NAME_CZE_GENERIC
 		unique = {
 		}	
@@ -1426,7 +1484,7 @@ CZE = {
 
 	cv_fighter_equipment = {
 		prefix = ""
-		generic = { "stihaci letecky pluk" }
+		generic = { "Stihaci letecky pluk" }
 		generic_pattern = AIR_WING_NAME_CZE_GENERIC
 		unique = {
 		}	
@@ -1434,14 +1492,14 @@ CZE = {
 
 	cv_CAS_equipment = {
 		prefix = ""
-		generic = { "bombardovaci letecky pluk" }
+		generic = { "Bombardovaci letecky pluk" }
 		generic_pattern = AIR_WING_NAME_CZE_GENERIC
 		unique = {
 		}	
 	}
 	cv_nav_bomber_equipment = {
 		prefix = ""
-		generic = { "námorni letecky pluk" }
+		generic = { "Námorni letecky pluk" }
 		generic_pattern = AIR_WING_NAME_CZE_GENERIC
 		unique = {
 		}	
@@ -1449,7 +1507,7 @@ CZE = {
 
 	tac_bomber_equipment = {
 		prefix = ""
-		generic = { "bombardovaci letecky pluk" }
+		generic = { "Bombardovaci letecky pluk" }
 		generic_pattern = AIR_WING_NAME_CZE_GENERIC
 		unique = {
 		}	
@@ -1457,7 +1515,7 @@ CZE = {
 
 	jet_tac_bomber_equipment = {
 		prefix = ""
-		generic = { "bombardovaci letecky pluk" }
+		generic = { "Bombardovaci letecky pluk" }
 		generic_pattern = AIR_WING_NAME_CZE_GENERIC
 		unique = {
 		}	
@@ -1465,23 +1523,23 @@ CZE = {
 
 	nav_bomber_equipment = {
 		prefix = ""
-		generic = { "námorni letecky pluk" }
+		generic = { "Námorni letecky pluk" }
 		generic_pattern = AIR_WING_NAME_CZE_GENERIC
 		unique = {
 		}	
 	}
 
-	strategic_bomber_equipment = {
+	strat_bomber_equipment = {
 		prefix = ""
-		generic = { "bombardovaci letecky pluk" }
+		generic = { "Bombardovaci letecky pluk" }
 		generic_pattern = AIR_WING_NAME_CZE_GENERIC
 		unique = {
 		}	
 	}
 
-	jet_strategic_bomber_equipment = {
+	jet_strat_bomber_equipment = {
 		prefix = ""
-		generic = { "bombardovaci letecky pluk" }
+		generic = { "Bombardovaci letecky pluk" }
 		generic_pattern = AIR_WING_NAME_CZE_GENERIC
 		unique = {
 		}	
@@ -1525,7 +1583,7 @@ DEN = {
 		prefix = "HDMS"
 		generic = { "Tung Cruiseren" }
 		unique = {
-			"Niels Juel" "Peder Skram" "Vitus Bering" "Sælen" "Hvalrossen" "Isbjørn" "Flynderen" "Mågen" "Ørnen" "Falken" "Ulken" 
+			"Niels Iuel" "Peder Skram" "Vitus Bering" "Sælen" "Hvalrossen" "Isbjørn" "Flynderen" "Mågen" "Ørnen" "Falken" "Ulken" 
 			"Olfert Fischer" "Fyen" "Hekla"
 		}
 	}
@@ -1663,61 +1721,6 @@ ECU = {
 	
 }
 
-ELS = {
-	submarine = {
-		prefix = "ARS"
-		generic = { "Submarino" }
-		unique = {
-			"Chalatenango" "Cojutepeque" "La Palma" "Jazubal" "Sonsonate" 
-		}
-	}
-	destroyer = {
-		prefix = "ARS"
-		generic = { 
-			"Destructor"
-		}
-		unique = {
-			"Chalatenango" "Cojutepeque" "La Palma" "Jazubal" "Sonsonate" 
-		}
-	}
-	light_cruiser = {
-		prefix = "ARS"
-		generic = { "Crucero Ligero" }
-		unique = {
-			"Chalatenango" "Cojutepeque" "La Palma" "Jazubal" "Sonsonate" 
-		}
-	}
-	heavy_cruiser = {
-		prefix = "ARS"
-		generic = { "Crucero Pesado" }
-		unique = {
-			"Chalatenango" "Cojutepeque" "La Palma" "Jazubal" "Sonsonate" 
-		}
-	}
-	battle_cruiser = {
-		prefix = "ARS"
-		generic = { "Crucero de Batalla" }
-		unique = {
-			"La Libertad" "Santa Ana" 
-		}
-	}
-	battleship = {
-		prefix = "ARS"
-		generic = { "Acorazado" }
-		unique = {
-			"La Libertad" "Santa Ana" 
-		}
-	}
-	carrier = {
-		prefix = "ARS"
-		generic = { "Portaaviones" }
-		unique = {
-			"República de El Salvador" "San Salvador" 
-		}
-	}
-	
-}
-
 EST = {
 	submarine = {
 		prefix = "EML"
@@ -1837,7 +1840,7 @@ FIN = {
 		}	
 	}
 
-	strategic_bomber_equipment = {
+	strat_bomber_equipment = {
 		prefix = ""
 		generic = { "Kaukopommituslennosto" }
 		generic_pattern = AIR_WING_NAME_FIN_BOMBER
@@ -1845,7 +1848,7 @@ FIN = {
 		}	
 	}
 
-	jet_strategic_bomber_equipment = {
+	jet_strat_bomber_equipment = {
 		prefix = ""
 		generic = { "Kaukopommituslennosto" }
 		generic_pattern = AIR_WING_NAME_FIN_BOMBER
@@ -2160,7 +2163,7 @@ HOL = {
 		}	
 	}
 
-	strategic_bomber_equipment = {
+	strat_bomber_equipment = {
 		prefix = ""
 		generic = { "Bommenwerpergroep" }
 		generic_pattern = AIR_WING_NAME_HOL_GENERIC
@@ -2168,7 +2171,7 @@ HOL = {
 		}	
 	}
 
-	jet_strategic_bomber_equipment = {
+	jet_strat_bomber_equipment = {
 		prefix = ""
 		generic = { "Bommenwerpergroep" }
 		generic_pattern = AIR_WING_NAME_HOL_GENERIC
@@ -2319,7 +2322,7 @@ HUN = {
 		}	
 	}
 
-	strategic_bomber_equipment = {
+	strat_bomber_equipment = {
 		prefix = ""
 		generic = { "Stratégiaibombázó osztály" }
 		generic_pattern = AIR_WING_NAME_HUN_GENERIC
@@ -2327,7 +2330,7 @@ HUN = {
 		}	
 	}
 
-	jet_strategic_bomber_equipment = {
+	jet_strat_bomber_equipment = {
 		prefix = ""
 		generic = { "Stratégiaibombázó osztály" }
 		generic_pattern = AIR_WING_NAME_HUN_GENERIC
@@ -2341,60 +2344,6 @@ HUN = {
 		generic_pattern = AIR_WING_NAME_HUN_GENERIC
 		unique = {
 		}	
-	}
-}
-
-HON = {
-	submarine = {
-		prefix = "ARH"
-		generic = { "Submarino" }
-		unique = {
-			"Guaymuras" "Honduras" "Hibueras" "Yojoa" "Goascoran" "Petula" "Ulua" "Choluteca" "Piraña" "Tegucigalpa" "Chamelecán" "Lempira" "Morazan" 
-		}
-	}
-	destroyer = {
-		prefix = "ARH"
-		generic = { 
-			"Destructor"
-		}
-		unique = {
-			"Guaymuras" "Honduras" "Hibueras" "Yojoa" "Goascoran" "Petula" "Ulua" "Choluteca" "Piraña" "Tegucigalpa" "Chamelecán" "Lempira" "Morazan" 
-		}
-	}
-	light_cruiser = {
-		prefix = "ARH"
-		generic = { "Crucero Ligero" }
-		unique = {
-			"San Antonio de Cortes" "El Progreso" "Puerto Cortés" "Iriona" "La Ceiba" 
-		}
-	}
-	heavy_cruiser = {
-		prefix = "ARH"
-		generic = { "Crucero Pesado" }
-		unique = {
-			"San Antonio de Cortes" "El Progreso" "Puerto Cortés" "Iriona" "La Ceiba" 
-		}
-	}
-	battle_cruiser = {
-		prefix = "ARH"
-		generic = { "Crucero de Batalla" }
-		unique = {
-			"Tegucigalpa" "San Pedro Sula" 
-		}
-	}
-	battleship = {
-		prefix = "ARH"
-		generic = { "Acorazado" }
-		unique = {
-			"Tegucigalpa" "San Pedro Sula" 
-		}
-	}
-	carrier = {
-		prefix = "ARH"
-		generic = { "Portaaviones" }
-		unique = {
-			"República de Honduras" "La Paloma" 
-		}
 	}
 }
 
@@ -2558,58 +2507,6 @@ LIT = {
 	
 }
 
-LIB = {
-	submarine = {
-		prefix = "LRS"
-		generic = { "Submarine" }
-		unique = {
-			"Abolition" "Grace" "Free Man" "Thrust" "Hope" 
-		}
-	}
-	destroyer = {
-		prefix = "LRS"
-		generic = { "Destroyer" }
-		unique = {
-			"Abolition" "Grace" "Free Man" "Thrust" "Hope" 
-		}
-	}
-	light_cruiser = {
-		prefix = "LRS"
-		generic = { "Light Cruiser" }
-		unique = {
-			"Abolition" "Grace" "Free Man" "Thrust" "Hope" 
-		}
-	}
-	heavy_cruiser = {
-		prefix = "LRS"
-		generic = { "Heavy Cruiser" }
-		unique = {
-			"Abolition" "Grace" "Free Man" "Thrust" "Hope" 
-		}
-	}
-	battle_cruiser = {
-		prefix = "LRS"
-		generic = { "Battlecruiser" }
-		unique = {
-			"Monrovia" "Freedom" 
-		}
-	}
-	battleship = {
-		prefix = "LRS"
-		generic = { "Battleship" }
-		unique = {
-			"Monrovia" "Freedom" 
-		}
-	}
-	carrier = {
-		prefix = "LRS"
-		generic = { "Carrier" }
-		unique = {
-			"Republic of Liberia" "Promised Land" 
-		}
-	}
-}
-
 SAF = {
 	submarine = {
 		prefix = "HMSAS"
@@ -2749,8 +2646,22 @@ MEX = {
 		prefix = "ARM"
 		generic = { "Submarino" }
 		unique = {
-			"Ponciano Arriaga" "Mariano Matamoros" "Felipe Xicotencatl" "Ignacio Altamirano" "Ignacio de la Llave" "Juan Aldama" "Leandro Valle" 
-			"SebastiAn Lerdo de Tejada" "Juarez" "Netzahualcóyotl" "Manuel Azueta" "Bravo" "Galeana" "Allende" "Abasolo" "Victoria" "Mina" "Huracan" "Tormenta" 
+			#Mexico's longest rivers		
+			"Río Usumacinta" "Río Bravo" "Río Colorado" "Río Grijalva" "Río Nazas" "Río Aguanaval" "Río Culiacán" "Río Balsas" "Río Lerma" "Río Fuerte" "Río Pánuco" "Río Conchos" "Río Soto La Marina" "Río Yaqui" "Río San Fernando" "Río Mayo" "Río Tecolutla" "Río Jamapa" "Río Papaloapan" "Río Sinaloa" "Río Verde" "Río Concepción" "Río Coatzacoalcos" "Río San Lorenzo" "Río Sonoyta" "Río San Pedro Mezquital" "Agua Prieta"
+			#Geographic features that have had MEX ships named after them.
+			"Punta Morro" "Punta Mastun" "Cabo Corrientes" "Cabo Corzo" "Cabo Catoche" "Islas Coronado" "Isla Lobos" "Isla Guadalupe" "Isla Cozumel" 
+			#Weather (some have had MEX ships, some are added)
+			"Huracán" "Tormenta" "Ciclón" "Tempestad" "Tifón" "Relámpago" "Trueno" "Viento"
+			#MEX States
+			"Guanajuato" "Querétaro" "San Luis Potosí" "Baja California" "Chihuahua" "Coahuila" "Chiapas" "Tamaulipas" "Yucatán" "Tabasco" "Campeche" "Puebla" "Zacatecas" "Sonora" "Durango" "Oaxaca" "Jalisco" "Nuevo León" "Michoacán" "Sinaloa" "Nayarit" "Colima" "Aguascalientes" "Tlaxcala"
+			#MEX Cities
+			"Veracruz" "Tampico" "Mazatlán" "Acapulco" "Progreso" "Tehuantepec" "Pánuco" "Manzanillo" "Guadalajara" "Mérida" "Monterrey" "Tijuana" "Ecatepec" "Zapopan" "Culiacán" "Naucalpan" "Hermosillo" "Saltillo" "Mexicali" "Tlalnepantla de Baz" "Cancún" "Chimalhuacán" "Torreón" "Reynosa" "Tlaquepaque" "Toluca" "San Francisco Atizapán" "Cuautitlán Izcalli" "Apodaca" "Heroica Matamoros" "San Nicolás de los Garza" "Xalapa" "Tonalá" "Irapuato" "Nuevo Laredo" "Xico" "Villahermosa" "Celaya" "Cuernavaca" "Tepic" "Ixtapaluca"
+			#Revolutionary leaders
+			"Martín Javier Mina" "Pancho Villa" "Mariano Abasolo" "Ignacio Allende" "Juan Aldama" "Mariano Matamoros" "Pedro Sainz de Baranda" "Hermenegildo Galeana" "Juan Álvarez" "Miguel Ramos Arizpe" "Matías de Córdova" "José María Izazaga" "Ignacio López Rayón" "Vicente Guerrero" "José María Morelos" "Miguel Hidalgo" 
+			#Notable sailors
+			"Ángel Ortiz Monasterío" "José María de la Vega González" "Felipe Berríozábal" "David Porter" 
+			#Notable civilians
+			"Ignacio  Altamirano" "Ponciano Arriaga" "Guillermo Prieto" "Manuel Doblado" "Melchor Ocampo" "Francisco Zarco" "Ignacio Vallarta" "Andrés Quintana Roo" "Juan Bautista Morales" "Manuel Crescencio Rejón" "Antonio de la Fuente" "León Guzmán" "Ignacio Ramírez" "Ignacio Mariscal" "José María Marta" "Félix Romero" "José María Velasco" 
 		}
 	}
 	destroyer = {
@@ -2759,97 +2670,108 @@ MEX = {
 			"Destructor"
 		}
 		unique = {
-			"Ponciano Arriaga" "Mariano Matamoros" "Felipe Xicotencatl" "Ignacio Altamirano" "Ignacio de la Llave" "Juan Aldama" "Leandro Valle" 
-			"SebastiAn Lerdo de Tejada" "Juarez" "Netzahualcóyotl" "Manuel Azueta" "Bravo" "Galeana" "Allende" "Abasolo" "Victoria" "Mina" "Huracan" "Tormenta" 
+			#MEX States
+			"Guanajuato" "Querétaro" "San Luis Potosí" "Baja California" "Chihuahua" "Coahuila" "Chiapas" "Tamaulipas" "Yucatán" "Tabasco" "Campeche" "Puebla" "Zacatecas" "Sonora" "Durango" "Oaxaca" "Jalisco" "Nuevo León" "Michoacán" "Sinaloa" "Nayarit" "Colima" "Aguascalientes" "Tlaxcala"
+			#MEX Cities
+			"Veracruz" "Tampico" "Mazatlán" "Acapulco" "Progreso" "Tehuantepec" "Pánuco" "Manzanillo" "Guadalajara" "Mérida" "Monterrey" "Tijuana" "Ecatepec" "Zapopan" "Culiacán" "Naucalpan" "Hermosillo" "Saltillo" "Mexicali" "Tlalnepantla de Baz" "Cancún" "Chimalhuacán" "Torreón" "Reynosa" "Tlaquepaque" "Toluca" "San Francisco Atizapán" "Cuautitlán Izcalli" "Apodaca" "Heroica Matamoros" "San Nicolás de los Garza" "Xalapa" "Tonalá" "Irapuato" "Nuevo Laredo" "Xico" "Villahermosa" "Celaya" "Cuernavaca" "Tepic" "Ixtapaluca"
+			#Weather (some have had MEX ships, some are added)
+			"Huracán" "Tormenta" "Ciclón" "Tempestad" "Tifón" "Relámpago" "Trueno" "Viento"
+			#Revolutionary leaders
+			"Martín Javier Mina" "Pancho Villa" "Mariano Abasolo" "Ignacio Allende" "Juan Aldama" "Mariano Matamoros" "Pedro Sainz de Baranda" "Hermenegildo Galeana" "Juan Álvarez" "Miguel Ramos Arizpe" "Matías de Córdova" "José María Izazaga" "Ignacio López Rayón" "Vicente Guerrero" "José María Morelos" "Miguel Hidalgo"
+			#Notable sailors
+			"Ángel Ortiz Monasterío" "José María de la Vega González" "Felipe Berríozábal" "David Porter" 
+			#Notable civilians
+			"Ignacio  Altamirano" "Ponciano Arriaga" "Guillermo Prieto" "Manuel Doblado" "Melchor Ocampo" "Francisco Zarco" "Ignacio Vallarta" "Andrés Quintana Roo" "Juan Bautista Morales" "Manuel Crescencio Rejón" "Antonio de la Fuente" "León Guzmán" "Ignacio Ramírez" "Ignacio Mariscal" "José María Marta" "Félix Romero" "José María Velasco" 
 		}
 	}
 	light_cruiser = {
 		prefix = "ARM"
 		generic = { "Crucero Ligero" }
 		unique = {
-			"Guadalajara" "Pancho Villa" "Rio Lobo" "Merida" "Monterrey" "Rio Grande" "Tijuana" "Rio del Norte" "Chiapas" "Chuela" 
+			#Notable sailors
+			"Ángel Ortiz Monasterio" "José María de la Vega González" "Felipe Berríozábal" "David Porter" 
+			#Notable civilians
+			"Ignacio  Altamirano" "Ponciano Arriaga" "Guillermo Prieto" "Manuel Doblado" "Melchor Ocampo" "Francisco Zarco" "Ignacio Vallarta" "Andrés Quintana Roo" "Juan Bautista Morales" "Manuel Crescencio Rejón" "Antonio de la Fuente" "León Guzmán" "Ignacio Ramírez" "Ignacio Mariscal" "José María Marta" "Félix Romero" "José María Velasco"
+			#Military leaders not elsewhere covered
+			"Sebastián José Holzinger" "Blas Godínez Brito"
+			#Generals who fought the US in the 1800s
+			"Leandro Valle" "Ignacio de la Llave" "Felipe Xicoténcatl" "Santos Degollado"
+			#Fighters at Veracruz
+			"José Azueta" "Virgilio Uribe" "Manuel Azueta"
+			#MEX States
+			"Guanajuato" "Querétaro" "San Luis Potosí" "Baja California" "Chihuahua" "Coahuila" "Chiapas" "Tamaulipas" "Yucatán" "Tabasco" "Campeche" "Puebla" "Zacatecas" "Sonora" "Durango" "Oaxaca" "Jalisco" "Nuevo León" "Michoacán" "Sinaloa" "Nayarit" "Colima" "Aguascalientes" "Tlaxcala"
+			#MEX Cities
+			"Veracruz" "Tampico" "Mazatlán" "Acapulco" "Progreso" "Tehuantepec" "Pánuco" "Manzanillo" "Guadalajara" "Mérida" "Monterrey" "Tijuana" "Ecatepec" "Zapopan" "Culiacán" "Naucalpan" "Hermosillo" "Saltillo" "Mexicali" "Tlalnepantla de Baz" "Cancún" "Chimalhuacán" "Torreón" "Reynosa" "Tlaquepaque" "Toluca" "San Francisco Atizapán" "Cuautitlán Izcalli" "Apodaca" "Heroica Matamoros" "San Nicolás de los Garza" "Xalapa" "Tonalá" "Irapuato" "Nuevo Laredo" "Xico" "Villahermosa" "Celaya" "Cuernavaca" "Tepic" "Ixtapaluca"
 		}
 	}
 	heavy_cruiser = {
 		prefix = "ARM"
 		generic = { "Crucero Pesado" }
 		unique = {
-			"Guadalajara" "Pancho Villa" "Rio Lobo" "Merida" "Monterrey" "Rio Grande" "Tijuana" "Rio del Norte" "Chiapas" "Chuela" 
+			#Military leaders not elsewhere covered
+			"Sebastián José Holzinger" "Blas Godínez Brito"
+			#Generals who fought the US in the 1800s
+			"Leandro Valle" "Ignacio de la Llave" "Felipe Xicoténcatl" "Santos Degollado"
+			#Fighters at Veracruz
+			"José Azueta" "Virgilio Uribe" "Manuel Azueta"
+			#Notable sailors
+			"Ángel Ortiz Monasterio" "José María de la Vega González" "Felipe Berríozábal" "David Porter" 
+			#Notable civilians
+			"Ignacio  Altamirano" "Ponciano Arriaga" "Guillermo Prieto" "Manuel Doblado" "Melchor Ocampo" "Francisco Zarco" "Ignacio Vallarta" "Andrés Quintana Roo" "Juan Bautista Morales" "Manuel Crescencio Rejón" "Antonio de la Fuente" "León Guzmán" "Ignacio Ramírez" "Ignacio Mariscal" "José María Marta" "Félix Romero" "José María Velasco"
+			#MEX States
+			"Guanajuato" "Querétaro" "San Luis Potosí" "Baja California" "Chihuahua" "Coahuila" "Chiapas" "Tamaulipas" "Yucatán" "Tabasco" "Campeche" "Puebla" "Zacatecas" "Sonora" "Durango" "Oaxaca" "Jalisco" "Nuevo León" "Michoacán" "Sinaloa" "Nayarit" "Colima" "Aguascalientes" "Tlaxcala"
+			#MEX Cities
+			"Veracruz" "Tampico" "Mazatlán" "Acapulco" "Progreso" "Tehuantepec" "Pánuco" "Manzanillo" "Guadalajara" "Mérida" "Monterrey" "Tijuana" "Ecatepec" "Zapopan" "Culiacán" "Naucalpan" "Hermosillo" "Saltillo" "Mexicali" "Tlalnepantla de Baz" "Cancún" "Chimalhuacán" "Torreón" "Reynosa" "Tlaquepaque" "Toluca" "San Francisco Atizapán" "Cuautitlán Izcalli" "Apodaca" "Heroica Matamoros" "San Nicolás de los Garza" "Xalapa" "Tonalá" "Irapuato" "Nuevo Laredo" "Xico" "Villahermosa" "Celaya" "Cuernavaca" "Tepic" "Ixtapaluca"
 		}
 	}
 	battle_cruiser = {
 		prefix = "ARM"
 		generic = { "Crucero de Batalla" }
 		unique = {
-			"Juarez" "Ciudad de Mexico" "Montezuma" 
+			#Aztec deities
+			"Quetzalcoatl" "Huitzilopochtli" "Tlaloc" "Tonatiuh" "Tezcatlipoca" "Chalchiuhtlicue" "Centeotl" "Xipe Totec" "Mayahuel" "Tlaltechutli" "Atlahua" "Cipactonal" "Oxomoco" "Patecatl" "Ixtlilton" "Ehecatotontli" "Mictlanpachecatl" "Cihuatecayotl" "Tlalocayotl" "Huitztlampaehecatl" "Mictlantecuhtli" "Xiuhtecuhtli" "Mixcoatl" "Ometeotl" "Tonacatecuhtli" "Xolotl" "Tlahuizcalpantecuhtli" "Opochtli" 
+			#Archaeological sites
+			"Uxmal" "Mitla" "Petén" "Anáhuac" 
+			#Notable Presidents
+			"Nicolás Bravo" "Benito Juárez" "Guadalupe Victoria" "Sebastián Lerdo de Tejada" "Valentín Farías" 
+			#Revolutionary leaders
+			"Martín Javier Mina" "Pancho Villa" "Mariano Abasolo" "Ignacio Allende" "Juan Aldama" "Mariano Matamoros" "Pedro Sainz de Baranda" "Hermenegildo Galeana" "Juan Álvarez" "Miguel Ramos Arizpe" "Matías de Córdova" "José María Izazaga" "Ignacio López Rayón" "Vicente Guerrero" "José María Morelos" "Miguel Hidalgo"
+			#Historic MEX ship names
+			"Independencia" "Libertad" "Democrata" "México" 
 		}
 	}
 	battleship = {
 		prefix = "ARM"
 		generic = { "Acorazado" }
 		unique = {
-			"Juarez" "Ciudad de Mexico" "Montezuma" 
+ 			#Historic MEX ship names
+			"Independencia" "Libertad" "Democrata" "México"
+			#Notable Presidents
+			"Nicolás Bravo" "Benito Juárez" "Guadalupe Victoria" "Sebastián Lerdo de Tejada" "Valentín Farías"
+			#Revolutionary leaders
+			"Martín Javier Mina" "Pancho Villa" "Mariano Abasolo" "Ignacio Allende" "Juan Aldama" "Mariano Matamoros" "Pedro Sainz de Baranda" "Hermenegildo Galeana" "Juan Álvarez" "Miguel Ramos Arizpe" "Matías de Córdova" "José María Izazaga" "Ignacio López Rayón" "Vicente Guerrero" "José María Morelos" "Miguel Hidalgo"
+			#Archaeological sites
+			"Uxmal" "Mitla" "Petén" "Anáhuac"
+			#Aztec deities
+			"Quetzalcoatl" "Huitzilopochtli" "Tlaloc" "Tonatiuh" "Tezcatlipoca" "Chalchiuhtlicue" "Centeotl" "Xipe Totec" "Mayahuel" "Tlaltechutli" "Atlahua" "Cipactonal" "Oxomoco" "Patecatl" "Ixtlilton" "Ehecatotontli" "Mictlanpachecatl" "Cihuatecayotl" "Tlalocayotl" "Huitztlampaehecatl" "Mictlantecuhtli" "Xiuhtecuhtli" "Mixcoatl" "Ometeotl" "Tonacatecuhtli" "Xolotl" "Tlahuizcalpantecuhtli" "Opochtli" 
 		}
 	}
 	carrier = {
 		prefix = "ARM"
 		generic = { "Portaaviones" }
 		unique = {
-			"Republica de Mexico" "Xochichapal" "Cauhtemoc" "Allende" "Abasolo" "Victoria" "Mina" "Bravo" "Galeana" 
-		}
-	}
-}
-
-NIC = {
-	submarine = {
-		prefix = "ARN"
-		generic = { "Submarino" }
-		unique = {
-			"Managua" "Masaya" "Granada" "León" "Chinandega" 
-		}
-	}
-	destroyer = {
-		prefix = "ARN"
-		generic = { 
-			"Destructor"
-		}
-		unique = {
-			"Managua" "Masaya" "Granada" "León" "Chinandega" 
-		}
-	}
-	light_cruiser = {
-		prefix = "ARN"
-		generic = { "Crucero Ligero" }
-		unique = {
-			"Managua" "Masaya" "Granada" "León" "Chinandega" 
-		}
-	}
-	heavy_cruiser = {
-		prefix = "ARN"
-		generic = { "Crucero Pesado" }
-		unique = {
-			"Managua" "Masaya" "Granada" "León" "Chinandega" 
-		}
-	}
-	battle_cruiser = {
-		prefix = "ARN"
-		generic = { "Crucero de Batalla" }
-		unique = {
-			"Anastacio Somoza" "La Republica" 
-		}
-	}
-	battleship = {
-		prefix = "ARN"
-		generic = { "Acorazado" }
-		unique = {
-			"Anastacio Somoza" "La Republica" 
-		}
-	}
-	carrier = {
-		prefix = "ARN"
-		generic = { "Portaaviones" }
-		unique = {
-			"Somoza y Nicaragua" "Tachito" 
+			#Key MEX naval aviation pioneer
+			"Carlos Castillo Bretón" 
+			#Revolutionary leaders
+			"Martín Javier Mina" "Pancho Villa" "Mariano Abasolo" "Ignacio Allende" "Juan Aldama" "Mariano Matamoros" "Pedro Sainz de Baranda" "Hermenegildo Galeana" "Juan Álvarez" "Miguel Ramos Arizpe" "Matías de Córdova" "José María Izazaga" "Ignacio López Rayón" "Vicente Guerrero" "José María Morelos" "Miguel Hidalgo"
+			#Notable Presidents
+			"Nicolás Bravo" "Benito Juárez" "Guadalupe Victoria" "Sebastián Lerdo de Tejada" "Valentín Farías"
+ 			#Historic MEX ship names
+			"Independencia" "Libertad" "Democrata" "México"
+			#Archaeological sites
+			"Uxmal" "Mitla" "Petén" "Anáhuac"
+			#Aztec deities
+			"Quetzalcoatl" "Huitzilopochtli" "Tlaloc" "Tonatiuh" "Tezcatlipoca" "Chalchiuhtlicue" "Centeotl" "Xipe Totec" "Mayahuel" "Tlaltechutli" "Atlahua" "Cipactonal" "Oxomoco" "Patecatl" "Ixtlilton" "Ehecatotontli" "Mictlanpachecatl" "Cihuatecayotl" "Tlalocayotl" "Huitztlampaehecatl" "Mictlantecuhtli" "Xiuhtecuhtli" "Mixcoatl" "Ometeotl" "Tonacatecuhtli" "Xolotl" "Tlahuizcalpantecuhtli" "Opochtli" 
 		}
 	}
 }
@@ -2989,58 +2911,6 @@ NZL = {
 		generic_pattern = AIR_WING_NAME_ENG_CARRIER
 		unique = {
 		}	
-	}
-}
-
-OMA = {
-	submarine = {
-		prefix = "SNV"
-		generic = { "Submarine" }
-		unique = {
-			"Al Shamikh" "Al Rahmani" "Al Rasikh" "Qahir Al Amwaj" "Al Mua'zzar" "Al Mubrukah"
-		}
-	}
-	destroyer = {
-		prefix = "SNV"
-		generic = { "Destroyer" }
-		unique = {
-			"Al Shamikh" "Al Rahmani" "Al Rasikh" "Qahir Al Amwaj" "Al Mua'zzar" "Al Mubrukah"
-		}
-	}
-	light_cruiser = {
-		prefix = "SNV"
-		generic = { "Light Cruiser" }
-		unique = {
-			"Salalah" "Raysut" "Mirbah" "Sawqirah" "Duqm" 
-		}
-	}
-	heavy_cruiser = {
-		prefix = "SNV"
-		generic = { "Heavy Cruiser" }
-		unique = {
-			"Salalah" "Raysut" "Mirbah" "Sawqirah" "Duqm" 
-		}
-	}
-	battle_cruiser = {
-		prefix = "SNV"
-		generic = { "Battlecruiser" }
-		unique = {
-			"Masqat" "Matrah" 
-		}
-	}
-	battleship = {
-		prefix = "SNV"
-		generic = { "Battleship" }
-		unique = {
-			"Masqat" "Matrah" 
-		}
-	}
-	carrier = {
-		prefix = "SNV"
-		generic = { "Aircraft Carrier" }
-		unique = {
-			"Salah al-Din" 
-		}
 	}
 }
 
@@ -3230,7 +3100,7 @@ PER = {
 		}	
 	}
 
-	strategic_bomber_equipment = {
+	strat_bomber_equipment = {
 		prefix = ""
 		generic = { "Daste Bombon Razmarayi" }
 		generic_pattern = AIR_WING_NAME_BRA_GENERIC
@@ -3238,7 +3108,7 @@ PER = {
 		}	
 	}
 
-	jet_strategic_bomber_equipment = {
+	jet_strat_bomber_equipment = {
 		prefix = ""
 		generic = { "Daste Bombon Razmarayi" }
 		generic_pattern = AIR_WING_NAME_BRA_GENERIC
@@ -3499,7 +3369,7 @@ PRC = {
 		}	
 	}
 
-	strategic_bomber_equipment = {
+	strat_bomber_equipment = {
 		prefix = ""
 		generic = { "Zhanlue Hongzhaji Dadui" }
 		generic_pattern = AIR_WING_NAME_CHI_GENERIC
@@ -3507,7 +3377,7 @@ PRC = {
 		}	
 	}
 
-	jet_strategic_bomber_equipment = {
+	jet_strat_bomber_equipment = {
 		prefix = ""
 		generic = { "Zhanlue Hongzhaji Dadui" }
 		generic_pattern = AIR_WING_NAME_CHI_GENERIC
@@ -3773,7 +3643,7 @@ ROM = {
 		}	
 	}
 
-	strategic_bomber_equipment = {
+	strat_bomber_equipment = {
 		prefix = ""
 		generic = { "Grup Strategic Bombardier" }
 		generic_pattern = AIR_WING_NAME_ROM_GENERIC
@@ -3781,7 +3651,7 @@ ROM = {
 		}	
 	}
 
-	jet_strategic_bomber_equipment = {
+	jet_strat_bomber_equipment = {
 		prefix = ""
 		generic = { "Grup Strategic Bombardier" }
 		generic_pattern = AIR_WING_NAME_ROM_GENERIC
@@ -3932,7 +3802,7 @@ YUG = {
 		}	
 	}
 
-	strategic_bomber_equipment = {
+	strat_bomber_equipment = {
 		prefix = ""
 		generic = { "Bombarderski Puk" }
 		generic_pattern = AIR_WING_NAME_YUG_GENERIC
@@ -3940,7 +3810,7 @@ YUG = {
 		}	
 	}
 
-	jet_strategic_bomber_equipment = {
+	jet_strat_bomber_equipment = {
 		prefix = ""
 		generic = { "Bombarderski Puk" }
 		generic_pattern = AIR_WING_NAME_YUG_GENERIC
@@ -4203,7 +4073,7 @@ SWE = {
 		}	
 	}
 
-	strategic_bomber_equipment = {
+	strat_bomber_equipment = {
 		prefix = ""
 		generic = { "Bombflyggruppen" }
 		generic_pattern = AIR_WING_NAME_SWE_GENERIC
@@ -4211,7 +4081,7 @@ SWE = {
 		}	
 	}
 
-	jet_strategic_bomber_equipment = {
+	jet_strat_bomber_equipment = {
 		prefix = ""
 		generic = { "Bombflyggruppen" }
 		generic_pattern = AIR_WING_NAME_SWE_GENERIC
@@ -4368,7 +4238,7 @@ TUR = {
 		}	
 	}
 
-	strategic_bomber_equipment = {
+	strat_bomber_equipment = {
 		prefix = ""
 		generic = { "Bombardiman Filosu" }
 		generic_pattern = AIR_WING_NAME_TUR_GENERIC
@@ -4376,7 +4246,7 @@ TUR = {
 		}	
 	}
 
-	jet_strategic_bomber_equipment = {
+	jet_strat_bomber_equipment = {
 		prefix = ""
 		generic = { "Bombardiman Filosu" }
 		generic_pattern = AIR_WING_NAME_TUR_GENERIC
@@ -4617,7 +4487,7 @@ POL = {
 	#Air wings can only be named through archetype
 	fighter_equipment = {
 		prefix = ""
-		generic = { "dywizjon mysliwski" }
+		generic = { "Dywizjon mysliwski" }
 		generic_pattern = AIR_WING_NAME_POL_GENERIC
 		unique = {
 		}	
@@ -4625,7 +4495,7 @@ POL = {
 
 	jet_fighter_equipment = {
 		prefix = ""
-		generic = { "dywizjon mysliwski" }
+		generic = { "Dywizjon mysliwski" }
 		generic_pattern = AIR_WING_NAME_POL_GENERIC
 		unique = {
 		}	
@@ -4633,7 +4503,7 @@ POL = {
 
 	heavy_fighter_equipment = {
 		prefix = ""
-		generic = { "dywizjon mysliwski" }
+		generic = { "Dywizjon mysliwski" }
 		generic_pattern = AIR_WING_NAME_POL_GENERIC
 		unique = {
 		}	
@@ -4641,7 +4511,7 @@ POL = {
 
 	CAS_equipment = {
 		prefix = ""
-		generic = { "dywizjon bombowy" }
+		generic = { "Dywizjon bombowy" }
 		generic_pattern = AIR_WING_NAME_POL_GENERIC
 		unique = {
 		}	
@@ -4649,7 +4519,7 @@ POL = {
 
 	cv_fighter_equipment = {
 		prefix = ""
-		generic = { "dywizjon mysliwski" }
+		generic = { "Dywizjon mysliwski" }
 		generic_pattern = AIR_WING_NAME_POL_GENERIC
 		unique = {
 		}	
@@ -4657,14 +4527,14 @@ POL = {
 
 	cv_CAS_equipment = {
 		prefix = ""
-		generic = { "dywizjon bombowy" }
+		generic = { "Dywizjon bombowy" }
 		generic_pattern = AIR_WING_NAME_POL_GENERIC
 		unique = {
 		}	
 	}
 	cv_nav_bomber_equipment = {
 		prefix = ""
-		generic = { "morski dyon lotniczy" }
+		generic = { "Morski dyon lotniczy" }
 		generic_pattern = AIR_WING_NAME_POL_GENERIC
 		unique = {
 		}	
@@ -4672,7 +4542,7 @@ POL = {
 
 	tac_bomber_equipment = {
 		prefix = ""
-		generic = { "dywizjon bombowy" }
+		generic = { "Dywizjon bombowy" }
 		generic_pattern = AIR_WING_NAME_POL_GENERIC
 		unique = {
 		}	
@@ -4680,7 +4550,7 @@ POL = {
 
 	jet_tac_bomber_equipment = {
 		prefix = ""
-		generic = { "dywizjon bombowy" }
+		generic = { "Dywizjon bombowy" }
 		generic_pattern = AIR_WING_NAME_POL_GENERIC
 		unique = {
 		}	
@@ -4688,23 +4558,23 @@ POL = {
 
 	nav_bomber_equipment = {
 		prefix = ""
-		generic = { "morski dyon lotniczy" }
+		generic = { "Morski dyon lotniczy" }
 		generic_pattern = AIR_WING_NAME_POL_GENERIC
 		unique = {
 		}	
 	}
 
-	strategic_bomber_equipment = {
+	strat_bomber_equipment = {
 		prefix = ""
-		generic = { "dywizjon bombowy" }
+		generic = { "Dywizjon bombowy" }
 		generic_pattern = AIR_WING_NAME_POL_GENERIC
 		unique = {
 		}	
 	}
 
-	jet_strategic_bomber_equipment = {
+	jet_strat_bomber_equipment = {
 		prefix = ""
-		generic = { "dywizjon bombowy" }
+		generic = { "Dywizjon bombowy" }
 		generic_pattern = AIR_WING_NAME_POL_GENERIC
 		unique = {
 		}	
@@ -4712,7 +4582,7 @@ POL = {
 
 	transport_plane_equipment = {
 		prefix = ""
-		generic = { "dywizjon transportowy" }
+		generic = { "Dywizjon transportowy" }
 		generic_pattern = AIR_WING_NAME_POL_GENERIC
 		unique = {
 		}	

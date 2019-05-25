@@ -6,12 +6,12 @@ state={
 	resources={
 	}
 	
-	state_category = town
+	state_category = megalopolis
 
 	history={
 		owner = TUR
 		buildings = {
-			industrial_complex = 10
+			industrial_complex = 20
 			infrastructure = 7
 		}
 		add_core_of = USA

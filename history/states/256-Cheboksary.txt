@@ -4,7 +4,7 @@ state={
 	name="STATE_256"
 	manpower = 1572061
 	resources = {
-		steel = 400
+		steel = 300
 		tungsten = 200
 		oil = 300
 		rubber = 150
@@ -17,6 +17,7 @@ state={
 	history={
 		owner = SOV
 		buildings = {
+			arms_factory = 12
 			infrastructure = 10
 		}
 		add_core_of = SOV
