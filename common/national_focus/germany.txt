@@ -281,6 +281,7 @@ focus = {
 				technology = basic_heavy_tank
 				technology = improved_heavy_tank
 				technology = advanced_heavy_tank
+				category = cat_light_armor
 		}
 	}
 }
@@ -305,6 +306,7 @@ focus = {
 				technology = basic_heavy_tank
 				technology = improved_heavy_tank
 				technology = advanced_heavy_tank
+				category = cat_light_armor
 		}
 	}
 }
