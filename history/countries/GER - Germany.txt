@@ -155,21 +155,16 @@ diplomatic_relation = { country = TUR relation = non_aggression_pact }
 }
 
 
-set_politics = {
-
-	parties = {
-
-		fascism = {
-			popularity = 100
-		}
-		
-	}
-	
+set_politics = {	
 	ruling_party = fascism
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
 
+}
+
+set_popularities = {
+    fascism = 100
 }
 
 create_faction = Axis

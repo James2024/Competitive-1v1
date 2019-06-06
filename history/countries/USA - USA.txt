@@ -177,19 +177,15 @@ diplomatic_relation = { country = TUR relation = non_aggression_pact }
 
 
 
-set_politics = {
-
-	parties = {
-		democratic = { 
-			popularity = 100
-		}
-
-	}
-	
+set_politics = {	
 	ruling_party = democratic
 	last_election = "1932.11.8"
 	election_frequency = 48
 	elections_allowed = yes
+}
+
+set_popularities = {
+    democratic = 100
 }
 
 add_ideas = {
