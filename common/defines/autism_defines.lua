@@ -20,8 +20,6 @@ NDefines.NDiplomacy.NUM_DAYS_TO_ENABLE_KICKING_NEW_MEMBERS_OF_FACTION = 0
 NDefines.NDiplomacy.NUM_DAYS_TO_ENABLE_REINVITE_KICKED_NATIONS = 0
 NDefines.NDiplomacy.FRONT_IS_DANGEROUS = 0
 
--- set default occupation law
-NDefines.NPolitics.DEFAULT_OCCUPATION_POLICY = 3
 
 ---Country
 NDefines.NCountry.VP_TO_SUPPLY_BASE = 1.5
@@ -47,23 +45,8 @@ NDefines.NProduction.DEFAULT_MAX_NAV_FACTORIES_PER_LINE = 10
 NDefines.NProduction.CONVOY_MAX_NAV_FACTORIES_PER_LINE = 15
 NDefines.NProduction.CAPITAL_SHIP_MAX_NAV_FACTORIES_PER_LINE = 10
 
---- Navy
-NDefines.NNavy.SCREEN_RATIO_FOR_FULL_SCREENING_FOR_CAPITALS = 3.0
-NDefines.NNavy.ANTI_AIR_POW_ON_INCOMING_AIR_DAMAGE = 0.8 --- (0.2 -> 0.8)
-NDefines.NNavy.SHIP_TO_FLEET_ANTI_AIR_RATIO = 0.01 --- (0.2 -> 0.01)
-NDefines.NNavy.ANTI_AIR_MULT_ON_INCOMING_AIR_DAMAGE = 0.07 --- (0.15 -> 0.07)
-NDefines.NNavy.MAX_ANTI_AIR_REDUCTION_EFFECT_ON_INCOMING_AIR_DAMAGE = 0.8 --- (0.5 -> 0.8)
-NDefines.NNavy.HIGHER_SHIP_RATIO_POSITIONING_PENALTY_FACTOR    = 0.5 -- (0.25 -> 0.5)
-NDefines.NNavy.BASE_GUN_COOLDOWNS = { -- doubled the cooldown of guns to make battles last longer and give ships time to escape
-        2.0,    -- big guns
-        8.0,    -- torpedos
-        2.0,    -- small guns
-}
-
 ---Military
-NDefines.NMilitary.RECON_SKILL_IMPACT = 8
 NDefines.NMilitary.FUEL_CAPACITY_DEFAULT_HOURS = 160 ---Vanilla 90 makes tanks store more fuel?
-NDefines.NMilitary.ZERO_ORG_MOVEMENT_MODIFIER = -0.6
 NDefines.NMilitary.LEADER_SKILL_FACTOR = 0.25
 NDefines.NMilitary.MAX_ARMY_EXPERIENCE = 999
 NDefines.NMilitary.MAX_NAVY_EXPERIENCE = 999
@@ -75,68 +58,25 @@ NDefines.NMilitary.UNIT_EXPERIENCE_PER_COMBAT_HOUR = 0.00015
 NDefines.NMilitary.UNIT_EXPERIENCE_PER_TRAINING_DAY = 0.0002
 NDefines.NMilitary.EXPERIENCE_COMBAT_FACTOR = 0.15
 NDefines.NMilitary.UNIT_EXP_LEVELS = { 0.2, 0.3, 0.4, 0.6 }
-NDefines.NMilitary.SLOWEST_SPEED = 3
 NDefines.NMilitary.EXPERIENCE_LOSS_FACTOR = 0.01
 NDefines.NMilitary.TRAINING_ATTRITION = 0.01
 NDefines.NMilitary.SPEED_REINFORCEMENT_BONUS = 0.05
-NDefines.NMilitary.OVERSEAS_LOSE_EQUIPMENT_FACTOR = 1
 NDefines.NMilitary.PLAYER_ORDER_PLANNING_DECAY = 0.01
-NDefines.NMilitary.STRATEGIC_SPEED_BASE = 6.0
 NDefines.NMilitary.EFFICIENCY_REGION_CHANGE_DAILY_GAIN_STRATEGIC_BOMBER = 0.018
 NDefines.NMilitary.EXPERIENCE_COMBAT_FACTOR = 0.1
 
----No air Russia balances
-NDefines.NMilitary.ENEMY_AIR_SUPERIORITY_IMPACT = -0.5 --- -0.35
-NDefines.NMilitary.ENEMY_AIR_SUPERIORITY_SPEED_IMPACT = -0.25 --- -0.3
-NDefines.NMilitary.FUEL_CAPACITY_DEFAULT_HOURS = 160   --- 90 This is to make it so tanks have more fuel stored in them
-NDefines.NMilitary.AIR_SUPPORT_BASE = 0.35 --- 0.25 CAS IS GOLD
-NDefines.NMilitary.ENEMY_AIR_SUPERIORITY_DEFENSE = 0.75	       -- more AA attack will approach this amount of help (diminishing returns)
-NDefines.NMilitary.ENEMY_AIR_SUPERIORITY_DEFENSE_STEEPNESS = 112 --- Still vanilla value might want to fiddle around with the number though
-
----XP for leaders
-NDefines.NMilitary.FIELD_MARSHAL_XP_RATIO = 0
-NDefines.NMilitary.ARMY_LEADER_XP_GAIN_PER_UNIT_IN_COMBAT = 0
-NDefines.NMilitary.CONSTANT_XP_RATIO_FOR_MULTIPLE_LEADERS_IN_SAME_COMBAT = 0
-NDefines.NMilitary.BASE_LEADER_TRAIT_GAIN_XP = 0
-NDefines.NMilitary.UNIT_LEADER_ASSIGN_TRAIT_COST = 10.0
-NDefines.NMilitary.GARRISON_ORDER_ARMY_CAP_FACTOR = 1
-NDefines.NMilitary.CORPS_COMMANDER_DIVISIONS_CAP = 72
-NDefines.NMilitary.FIELD_MARSHAL_DIVISIONS_CAP = 0
-NDefines.NMilitary.BASE_DIVISION_BRIGADE_GROUP_COST = 0
-NDefines.NMilitary.BASE_DIVISION_BRIGADE_CHANGE_COST = 0
-NDefines.NMilitary.BASE_DIVISION_SUPPORT_SLOT_COST = 0
-NDefines.NMilitary.ENCIRCLED_DISBAND_MANPOWER_FACTOR = 0
-NDefines.NMilitary.XP_GAIN_PER_OVERRUN_UNIT = 0.0
-NDefines.NMilitary.XP_GAIN_FOR_SHATTERING = 0.0
 
 ---Building
 NDefines.NBuildings.MAX_SHARED_SLOTS = 40 --amount of potential max building slots in a state
 NDefines.NBuildings.INFRA_TO_SUPPLY = 2.5
-NDefines.NBuildings.AIRBASE_CAPACITY_MULT = 100
 NDefines.NBuildings.MAX_BUILDING_LEVELS = 20			-- Max levels a building can have.
 
----AA Balance
-NDefines.NMilitary.ANTI_AIR_ATTACK_TO_AMOUNT = 0.001 -- 0.005
-
 ---Air
-NDefines.NAir.DISRUPTION_FACTOR = 5  --- (4 -> 5)
-NDefines.NAir.ESCORT_FACTOR = 2.5 -- (2 -> 2.5)
 NDefines.NAir.AIR_DEPLOYMENT_DAYS = 1							-- Days to deploy one air wing
-NDefines.NAir.ACE_EARN_CHANCE_BASE = 0.01                        -- Base chance % for ace pilot to be created. Happens only when successfully kill airplane/ship or damage the buildings.
-NDefines.NAir.COMBAT_DAMAGE_SCALE = 0.2  -- Higher value = more shot down planes base 0.1
-NDefines.NAir.ANTI_AIR_PLANE_DAMAGE_CHANCE = 0.075	-- 0.1 base Anti Air Gun hit chance
 NDefines.NAir.AIR_WING_MAX_SIZE = 1600
-NDefines.NAir.ACE_WING_SIZE_MAX_BONUS = 1
 NDefines.NAir.STRATEGIC_BOMBER_NUKE_AIR_SUPERIORITY = 0.90
-NDefines.NAir.NAVAL_STRIKE_DAMAGE_TO_STR = 1.0
 NDefines.NAir.NAVAL_KAMIKAZE_DAMAGE_MULT = 5.0  -- vanilla is like 20
-NDefines.NAir.NAVAL_STRIKE_DAMAGE_TO_ORG = 1.0
-NDefines.NAir.AA_INDUSTRY_AIR_DAMAGE_FACTOR = -0.13 -- -0.12	5x levels = 60% defense from bombing
-NDefines.NAir.EFFICIENCY_REGION_CHANGE_DAILY_GAIN_TACTICAL_BOMBER =	0.1	-- base 0.192 How much efficiency to regain per day. Gain applied hourly.
-NDefines.NAir.AIR_COMBAT_FINAL_DAMAGE_SCALE = 0.3 -- 0.015	 % how many max disrupted only planes are allowed to die in a single combat
-NDefines.NAir.ANTI_AIR_MAXIMUM_DAMAGE_REDUCTION_FACTOR = 0.8 -- .75 Maximum damage reduction factor applied to incoming air attacks against units with AA.
 NDefines.NAir.AIR_MORE_GROUND_CREWS_COST = 500.0 -- Disables ground crews. They're cancerous. --- Definietly are cancerous
-NDefines.NAir.ANTI_AIR_PLANE_DAMAGE_FACTOR = 0.6
 
 ---AI
 NDefines.NAI.DIPLOMACY_ACCEPT_ATTACHE_BASE = 100
@@ -148,9 +88,6 @@ NDefines.NAI.MAX_VOLUNTEER_ARMY_FRACTION = 0.0001
 
 ---Graphics
 NDefines_Graphics.NMapIcons.STRATEGIC_AIR_PRIORITY_AIR_MISSION = 290
-
-
-NDefines_Graphics.NGraphics.VICTORY_POINT_MAP_ICON_TEXT_CUTOFF = {300, 500, 1500}
 
 --NDefines_Graphics.NGraphics.MAP_ICONS_GROUP_MAX_SIZE = 0
 NDefines_Graphics.NGraphics.MAP_ICONS_GROUP_CAM_DISTANCE = 100				--group moving and still units

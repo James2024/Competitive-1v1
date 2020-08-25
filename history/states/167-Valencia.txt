@@ -9,16 +9,19 @@ state={
 	history={
 		owner = TUR
 		victory_points = {
-			6906 5 
+			6906 10
+		}
+		victory_points = {
+			4098 3
 		}
 		buildings = {
-			infrastructure = 7
+			infrastructure = 6
 			dockyard = 1
 			air_base = 3
 			6906 = {
 				naval_base = 3
 			}
-			962 = {
+			4098 = {
 				naval_base = 2
 			}
 		}

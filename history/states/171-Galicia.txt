@@ -8,11 +8,15 @@ state={
 
 	history={
 		owner = TUR
+		add_core_of = GLC
 		victory_points = {
-			758 3 
+			758 5
+		}
+		victory_points = {
+			6734 3
 		}
 		buildings = {
-			infrastructure = 7
+			infrastructure = 6
 			dockyard = 2
 			arms_factory = 1
 			air_base = 2

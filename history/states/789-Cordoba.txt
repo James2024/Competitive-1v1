@@ -1,14 +1,11 @@
 state={
-	id=174
-	name="STATE_174"
+	id=789
+	name="STATE_789"
 
-	resources={
-		tungsten=10.000
-	}
 	history={
 		owner = TUR
 		victory_points = {
-			726 1
+			875 3
 		}
 		buildings = {
 			infrastructure = 6
@@ -20,9 +17,9 @@ state={
 	}
 
 	provinces={
-		726 918 920 3725 3727 3918 3920 6746 6907 9699 11843 13219 13232 
+		875 879 950 1090 1192 3810 3871 4095 6744 7198 10111 12083 
 	}
-	manpower=749041
+	manpower=1428513
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=town
 }

@@ -8,8 +8,8 @@ state={
 		tungsten = 200
 		oil = 300
 		rubber = 150
-		chromium = 100
-		aluminium = 186
+		chromium = 200
+		aluminium = 200
 	}
 	
 	state_category = city

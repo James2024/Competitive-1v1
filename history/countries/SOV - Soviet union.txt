@@ -201,7 +201,7 @@ add_namespace = {
 create_corps_commander = {
 	name = "Nikolai Vatutin"
 	picture = "Portrait_Soviet_Nikolai_Fyodorovich_Vatutin.dds"
-	traits = { infantry_officer infantry_leader }
+	traits = { infantry_officer infantry_leader engineer }
 	skill = 3
 	
 	attack_skill = 3
@@ -213,7 +213,7 @@ create_corps_commander = {
 create_corps_commander = {
 	name = "Kirill Meretskov"
 		picture = "Portrait_Soviet_Kirill_Meretskov.dds"
-	traits = { infantry_officer infantry_leader }
+	traits = { infantry_officer infantry_leader engineer }
 	skill = 3
 	
 	attack_skill = 3
@@ -225,7 +225,7 @@ create_corps_commander = {
 create_corps_commander = {
 	name = "Vasily Kuznetsov"
 		picture = "Portrait_Soviet_Vasily_Kuznetsov.dds"
-	traits = { infantry_officer infantry_leader }
+	traits = { infantry_officer infantry_leader engineer }
 	skill = 3
 	
 	attack_skill = 3
@@ -237,7 +237,7 @@ create_corps_commander = {
 create_corps_commander = {
 	name = "Andrey Vlasov"
 		picture = "Portrait_Soviet_Andrey_Vlasov.dds"
-	traits = { infantry_officer infantry_leader }
+	traits = { infantry_officer infantry_leader engineer }
 	id = 412
 	skill = 3
 	
@@ -251,7 +251,7 @@ create_corps_commander = {
 	name = "Konstantin Rokossovsky"
 	id = 402
 		picture = "Portrait_Soviet_Konstantin_Rokossovsky.dds"
-	traits = { armor_officer panzer_leader }
+	traits = { armor_officer panzer_leader engineer }
 	skill = 3
 	
 	attack_skill = 3
@@ -264,7 +264,7 @@ create_field_marshal = {
 	name = "Kliment Voroshilov"
 	id = 405
 		picture = "Portrait_Soviet_Kliment_Voroshilov.dds"
-	traits = { infantry_officer infantry_leader organiser logistics_wizard }
+	traits = { infantry_officer infantry_leader organiser logistics_wizard engineer }
 	skill = 3
 
 	attack_skill = 3
