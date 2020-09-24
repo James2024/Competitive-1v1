@@ -17,7 +17,6 @@ state={
 	history={
 		owner = SOV
 		buildings = {
-			arms_factory = 12
 			infrastructure = 10
 		}
 		add_core_of = SOV
